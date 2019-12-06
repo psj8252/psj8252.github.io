@@ -62,7 +62,7 @@ Cross Site Scripting or Web shell uploading.
 
 ## Skills, Activities & Interests  
 <hr/>
-__Programming:__ Python, C, Java, C++, Assembly(MIPS, Inten x86-64), Arduino  
+__Programming:__ Python, C, Java, C++, Assembly(MIPS, Intel x86-64), Arduino  
 __Technologies/Environments:__ Visual Studio Code, Visual Studio, Eclipse, MySQL, Altibase, ELK stack, Flask, Tensorflow, Pytorch, Windows, Linux, OS X  
 __Language skill:__ Korean(native), English(Intermediate)  
 __Activities:__ Led the Campus Information Security Club, Received Hancom MDS TensorFlow Deep Learning Education, Received FastCampus Natural Language Generation Education, Received SAP Design Thinking Education  
