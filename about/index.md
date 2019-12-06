@@ -9,6 +9,7 @@ comments: false
 <!-- <center><b>Moon</b> is a minimal, one column jekyll theme.</center> -->
 
 ## Education
+<hr/>
 Sungkyunkwan University Suwon, South Korea
 * __Grade__: *Junior Year of College of Software, Bachelor of Software*    Expected
 * __GPA__: 4.28 / 4.5
@@ -16,8 +17,11 @@ Sungkyunkwan University Suwon, South Korea
 * __Coursework__: Data Structure, Algorithm, Problem Solving, Digital Logic Circuits, Discrete Mathematics, Linear Algebra, Cryptology, System Program, Introduction to Computer Architectures, Computer Networks, Open Source Software Practice, Database, Introduction to Machine Learning
 
 ## Experience
+<hr/>
 
 ## Skills, Activities & Interests  
+<hr/>
+
 __Altibase__ 	Suwon, South Korea
 *Industry-University cooperation*		[04. 2018] – [12. 2018]  
 * Programmed the code to monitoring the performance of Altibase(DBMS).
