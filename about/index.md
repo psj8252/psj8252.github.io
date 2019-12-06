@@ -43,7 +43,7 @@ __Microsoft__   Suwon, South Korea
 * Studied Cloud Platform Service such as Microsoft Azure, Amazon Web Service, Google Cloud Platform.
 * Researched usage of blockchain using Microsoft Azure.
 
-__2017 SKKU BugBounty__    Suwon, South Korea
+__2017 SKKU BugBounty__    Suwon, South Korea 
 *Special Award (3rd Prize)*	 	[05. 2017] 
 * Developed ability to find, attack, prevent real secure vulnerability with finding web vulnerabilities such as 
 Cross Site Scripting or Web shell uploading.
