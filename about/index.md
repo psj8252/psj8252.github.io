@@ -13,11 +13,21 @@ comments: false
 Sungkyunkwan University Suwon, South Korea
 * __Grade__: *Junior Year of College of Software, Bachelor of Software*    Expected
 * __GPA__: 4.28 / 4.5
-* __Honors__: Scholarship for Academic Excellence, SKKU BugBounty 2017 Special Award, Deans’s Award
+* __Honors__: Student's Success Scholarship, Scholarship for Academic Excellence, SKKU BugBounty 2018 Incentive Award, SKKU BugBounty 2017 Special Award, Deans’s Award
 * __Coursework__: Data Structure, Algorithm, Problem Solving, Digital Logic Circuits, Discrete Mathematics, Linear Algebra, Cryptology, System Program, Introduction to Computer Architectures, Computer Networks, Open Source Software Practice, Database, Introduction to Machine Learning
 
 ## Experience
 <hr/>
+__SW Maestro__      Seoul, Korea
+*Team Project*      [05. 2019] - [11. 2019]  
+* Our team developed counseling chatbot and released to Playstore.
+* Led our team as a team leader and managed project.
+* Programmed chatbot scenario build framework.
+* Researched and developed Natural Language Processing(NLP) modules.
+
+__Freshman Python Education TA__    Suown, Korea  
+*Teaching Assistant*    [02. 2019]  
+* Taught Python basic to freshmen.
 
 __Altibase__ 	Suwon, South Korea  
 *Industry-University cooperation*		[04. 2018] – [12. 2018]  
@@ -34,6 +44,10 @@ __Stellarium Astronomy Software__		Suwon, Korea
 * Update the contents about how to build package using Visual Studio in Github Wiki page.
 * Added Korean language into install language options to be able to install Stellarium in Korean.
 * Translate some words to Korean about the name of astronomical bodies.
+
+__Freshman Python Education TA__    Suown, Korea  
+*Teaching Assistant*    [02. 2018]  
+* Taught Python basic to freshmen.
 
 __Microsoft__   Suwon, South Korea  
 *Industry-University cooperation*		[04. 2017] – [12. 2017]  
