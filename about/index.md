@@ -34,6 +34,12 @@ __Altibase__ 	Suwon, South Korea
 * Programmed the code to monitoring the performance of Altibase(DBMS).
 * Developed the environment to save and visualize the performance data using ELK stack.
 
+__2018 SKKU BugBounty__    Suwon, South Korea  
+*Incentive Award*	 	[10. 2018] 
+* Developed ability to find, attack, prevent real secure vulnerability with finding web vulnerabilities such as 
+Cookie reuse, SQL Injection, E-mail forward, Changing Password.
+* Studied various way of Web hacking.
+
 __Robot Localization Simulation without GPS__	Irvine, California, USA  
 *Undergraduate research project in UCI*		[07. 2018] – [08. 2018]  
 * Simulated single robot localization with dead-reckoning method in V-rep simulator and python.
