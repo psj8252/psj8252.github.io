@@ -19,9 +19,6 @@ Sungkyunkwan University Suwon, South Korea
 ## Experience
 <hr/>
 
-## Skills, Activities & Interests  
-<hr/>
-
 __Altibase__ 	Suwon, South Korea  
 *Industry-University cooperation*		[04. 2018] – [12. 2018]  
 * Programmed the code to monitoring the performance of Altibase(DBMS).
@@ -48,3 +45,6 @@ __2017 SKKU BugBounty__    Suwon, South Korea
 * Developed ability to find, attack, prevent real secure vulnerability with finding web vulnerabilities such as 
 Cross Site Scripting or Web shell uploading.
 * Studied various way of Web hacking.
+
+## Skills, Activities & Interests  
+<hr/>
