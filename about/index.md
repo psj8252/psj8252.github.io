@@ -18,7 +18,7 @@ Sungkyunkwan University Suwon, South Korea
 
 ## Experience
 <hr/>
-__SW Maestro__      Seoul, Korea
+__SW Maestro__      Seoul, Korea  
 *Team Project*      [05. 2019] - [11. 2019]  
 * Our team developed counseling chatbot and released to Playstore.
 * Led our team as a team leader and managed project.
