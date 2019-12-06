@@ -31,7 +31,7 @@ __Freshman Python Education TA__    Suown, Korea
 
 __Altibase__ 	Suwon, South Korea  
 *Industry-University cooperation*		[04. 2018] – [12. 2018]  
-* Programmed the code to monitoring the performance of Altibase(DBMS).
+* Programmed the code to monitor the performance of Altibase(DBMS).
 * Developed the environment to save and visualize the performance data using ELK stack.
 
 __2018 SKKU BugBounty__    Suwon, South Korea  
