@@ -9,6 +9,7 @@ comments: false
 <!-- <center><b>Moon</b> is a minimal, one column jekyll theme.</center> -->
 
 ## Education
+<hr>
 Sungkyunkwan University Suwon, South Korea
 * __Grade__: *Junior Year of College of Software, Bachelor of Software*    Expected
 * __GPA__: 4.28 / 4.5
