@@ -11,7 +11,8 @@ comments: false
 ## Education
 <hr/>
 Sungkyunkwan University Suwon, South Korea
-* __Grade__: *Junior Year of College of Software, Bachelor of Software*    Expected
+* __Grade__: *Junior Year of College of Software, Bachelor of Software*    [03. 2017] ~ [Expected]
+* __Credit__: 102 Credit completed
 * __GPA__: 4.28 / 4.5
 * __Honors__: TOPCIT Army Chief staff Award, Student's Success Scholarship, Scholarship for Academic Excellence, SKKU BugBounty 2018 Incentive Award, SKKU BugBounty 2017 Special Award, Deans’s Award
 * __Coursework__: Data Structure, Algorithm, Problem Solving, Digital Logic Circuits, Discrete Mathematics, Linear Algebra, Cryptology, System Program, Introduction to Computer Architectures, Computer Networks, Open Source Software Practice, Database, Introduction to Machine Learning
@@ -24,10 +25,6 @@ __SW Maestro__      Seoul, Korea
 * Led our team as a team leader and managed project.
 * Programmed chatbot scenario build framework.
 * Researched and developed Natural Language Processing(NLP) modules.
-
-__Freshman Python Education TA__    Suown, Korea  
-*Teaching Assistant*    [02. 2019]  
-* Taught Python basic to freshmen.
 
 __Altibase__ 	Suwon, South Korea  
 *Industry-University cooperation*		[04. 2018] – [12. 2018]  
@@ -51,10 +48,6 @@ __Stellarium Astronomy Software__		Suwon, Korea
 * Added Korean language into install language options to be able to install Stellarium in Korean.
 * Translate some words to Korean about the name of astronomical bodies.
 
-__Freshman Python Education TA__    Suown, Korea  
-*Teaching Assistant*    [02. 2018]  
-* Taught Python basic to freshmen.
-
 __Microsoft__   Suwon, South Korea  
 *Industry-University cooperation*		[04. 2017] – [12. 2017]  
 * Studied Cloud Platform Service such as Microsoft Azure, Amazon Web Service, Google Cloud Platform.
@@ -66,10 +59,48 @@ __2017 SKKU BugBounty__    Suwon, South Korea
 Cross Site Scripting or Web shell uploading.
 * Studied various way of Web hacking.
 
+
+## Activity
+<hr/>
+__Arduino Mentoring__   Suwon, Korea  
+*Teached Arduino*     [12. 2019]  
+* Taught Arduino to high school students.
+* Taught how to make RC car with Bluetooth, Ultra sonic modules, etc.
+
+__SAP Design Thinking Education__    Pangyo, Korea  
+*Received education*    [12. 2019]  
+* Learned customer-oriented problem solving.
+
+__FastCampus Natural Language Generation Education__    Seoul, Korea  
+*Received education*    [07. 2019] - [09. 2019]  
+* Learned from NLP basics to deep knowledges.
+* Learned Neural machine translation(NMT) with seq2seq and attention, RL, etc.
+
+__Freshman Python Education TA__    Suwon, Korea  
+*Teaching Assistant*    [02. 2019]  
+* Taught Python basic to freshmen.
+
+__Campus Information Security Club__      Suwon, Korea  
+*Club President*     [12. 2017] - [01. 2019]  
+* Led Information Security Club(Hacker's In inTrusion).
+* Planned, construct and taught System, Web Hacking, Forensic, etc.
+
+__CODEGATE 2018 Blind Coding__      Seoul, Korea
+*Event booth 5th prize*     [04. 2018]
+* Wrote simple codes with being blindfolded.
+
+__Freshman Python Education TA__    Suwon, Korea  
+*Teaching Assistant*    [02. 2018]  
+* Taught Python basic to freshmen.
+
+__Hancom MDS TensorFlow Deep Learning Education__    Pangyo, Korea  
+*Received education*    [02. 2018]  
+* Learned deep learning and Tensorflow basics.
+
+
 ## Skills, Activities & Interests  
 <hr/>
 __Programming:__ Python, C, Java, C++, Assembly(MIPS, Intel x86-64), Arduino  
 __Technologies/Environments:__ Visual Studio Code, Visual Studio, Eclipse, MySQL, Altibase, ELK stack, Flask, Tensorflow, Pytorch, Windows, Linux, OS X  
 __Language skill:__ Korean(native), English(Intermediate)  
-__Activities:__ Led the Campus Information Security Club, Received Hancom MDS TensorFlow Deep Learning Education, Received FastCampus Natural Language Generation Education, Received SAP Design Thinking Education  
 __Interests:__ Writing, Calligraphy, Playing piano, Astronomical observation, Magic, Board Game, Reading books  
