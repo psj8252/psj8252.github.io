@@ -85,8 +85,8 @@ __Campus Information Security Club__      Suwon, Korea
 * Led Information Security Club(Hacker's In inTrusion).
 * Planned, construct and taught System, Web Hacking, Forensic, etc.
 
-__CODEGATE 2018 Blind Coding__      Seoul, Korea
-*Event booth 5th prize*     [04. 2018]
+__CODEGATE 2018 Blind Coding__      Seoul, Korea  
+*Event booth 5th prize*     [04. 2018]  
 * Wrote simple codes with being blindfolded.
 
 __Freshman Python Education TA__    Suwon, Korea  
