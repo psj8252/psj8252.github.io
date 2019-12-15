@@ -98,7 +98,7 @@ __Hancom MDS TensorFlow Deep Learning Education__    Pangyo, Korea
 * Learned deep learning and Tensorflow basics.
 
 
-## Skills, Activities & Interests  
+## Skills & Interests  
 <hr/>
 __Programming:__ Python, C, Java, C++, Assembly(MIPS, Intel x86-64), Arduino  
 __Technologies/Environments:__ Visual Studio Code, Visual Studio, Eclipse, MySQL, Altibase, ELK stack, Flask, Tensorflow, Pytorch, Windows, Linux, OS X  
