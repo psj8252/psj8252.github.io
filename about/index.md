@@ -24,7 +24,7 @@ __SW Maestro__      Seoul, Korea
 * Our team developed counseling chatbot and released to Playstore.
 * Led our team as a team leader and managed project.
 * Programmed chatbot scenario build framework.
-* Researched and developed Natural Language Processing(NLP) modules.
+* Researched and developed Natural Language Processing(NLP) modules such as sentence similarity or response generation, etc.
 
 __Altibase__ 	Suwon, South Korea  
 *Industry-University cooperation*		[04. 2018] – [12. 2018]  
@@ -104,3 +104,10 @@ __Programming:__ Python, C, Java, C++, Assembly(MIPS, Intel x86-64), Arduino
 __Technologies/Environments:__ Visual Studio Code, Visual Studio, Eclipse, MySQL, Altibase, ELK stack, Flask, Tensorflow, Pytorch, Windows, Linux, OS X  
 __Language skill:__ Korean(native), English(Intermediate)  
 __Interests:__ Writing, Calligraphy, Playing piano, Astronomical observation, Magic, Board Game, Reading books  
+
+## Profile
+<hr/>
+__E-mail__: psj8252@네이버
+* __Desired task or fields__: AI, Deep Learning, NLP
+* 보충역 산업기능요원 구직 중
+* 면접 가능 시간: [월수금토] 오전 11시 이전, [월-토] 오후 7시 30분 이후, [일] All Time        ( Now ~ 2020/1/10, 이후  )
