@@ -110,4 +110,4 @@ __Interests:__ Writing, Calligraphy, Playing piano, Astronomical observation, Ma
 __E-mail__: psj8252@네이버
 __Desired task or fields__: AI, Deep Learning, NLP
 * 보충역 산업기능요원 구직 중
-* 면접 가능 시간: [월수금토] 오전 11시 이전, [월-토] 오후 7시 30분 이후, [일] All Time        ( Now ~ 2020/1/10, 이후  )
+* 면접 가능 시간(2020/1/10까지, 이후는 자유로움): [월수금토] 오전 11시 이전, [월-토] 오후 7시 30분 이후, [일] All Time
