@@ -111,3 +111,5 @@ __E-mail__: psj8252@네이버
 __Desired task or fields__: NLP, AI, Deep Learning  
 * 보충역 산업기능요원 구직 중  
 * 면접 가능 시간(2020/1/10까지, 이후는 자유로움): [월수금토] 오전 11시 이전, [월-토] 오후 7시 30분 이후, [일] All Time  
+
+[Back](http://psj8252.github.io)
