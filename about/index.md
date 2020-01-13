@@ -102,7 +102,7 @@ __Hancom MDS TensorFlow Deep Learning Education__    Pangyo, Korea
 <hr/>
 __Programming:__ Python, C, Java, C++, Assembly(MIPS, Intel x86-64), Arduino  
 __Technologies/Environments:__ Visual Studio Code, Visual Studio, Eclipse, MySQL, Altibase, ELK stack, Flask, Tensorflow, Pytorch, Windows, Linux, OS X  
-__Language skill:__ Korean(native), English(Intermediate)  
+__Language skill:__ Korean(native), English(Intermediate, Opic IM2)  
 __Interests:__ Writing, Calligraphy, Playing piano, Astronomical observation, Magic, Board Game, Reading books  
 
 ## Profile
