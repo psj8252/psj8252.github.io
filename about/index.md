@@ -13,7 +13,7 @@ comments: false
 Sungkyunkwan University Suwon, South Korea
 * __Grade__: *Junior Year of College of Software, Bachelor of Software*    [03. 2017] ~ [Expected]
 * __Credit__: 102 Credit completed
-* __GPA__: 4.28 / 4.5
+* __GPA__: 4.29 / 4.5
 * __Honors__: TOPCIT Army Chief staff Award, Student's Success Scholarship, Scholarship for Academic Excellence, SKKU BugBounty 2018 Incentive Award, SKKU BugBounty 2017 Special Award, Deans’s Award
 * __Coursework__: Data Structure, Algorithm, Problem Solving, Digital Logic Circuits, Discrete Mathematics, Linear Algebra, Cryptology, System Program, Introduction to Computer Architectures, Computer Networks, Open Source Software Practice, Database, Introduction to Machine Learning
 
