@@ -104,12 +104,3 @@ __Programming:__ Python, C, Java, C++, Assembly(MIPS, Intel x86-64), Arduino
 __Technologies/Environments:__ Visual Studio Code, Visual Studio, Eclipse, MySQL, Altibase, ELK stack, Flask, Tensorflow, Pytorch, Windows, Linux, OS X  
 __Language skill:__ Korean(native), English(Intermediate, Opic IM2)  
 __Interests:__ Writing, Calligraphy, Playing piano, Astronomical observation, Magic, Board Game, Reading books  
-
-## Profile
-<hr/>
-__E-mail__: psj8252@네이버  
-__Desired task or fields__: NLP, AI, Deep Learning  
-* 보충역 산업기능요원 구직 중  
-* 면접 가능 시간: 일반적으로 상시가능
-
-[<- Back to Home Page](http://psj8252.github.io)
