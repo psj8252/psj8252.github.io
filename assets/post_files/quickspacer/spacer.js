@@ -13,8 +13,8 @@ window.onload = async function () {
         '아니근데이건좀너무한거아닙니까?',
     ].join("\n")
 
-    const model = await tf.loadGraphModel('../assets/post_files/kor-spacer-model/model.json');
-    const vocabData = (await (await fetch('../assets/post_files/kor-spacer-model/vocab.txt')).text()).split('\n');
+    const model = await tf.loadGraphModel('../assets/post_files/quickspacer/model.json');
+    const vocabData = (await (await fetch('../assets/post_files/quickspacer/vocab.txt')).text()).split('\n');
     const vocabTable = Object.keys(vocabData).reduce((result, key) => { result[vocabData[key]] = parseInt(key); return result; }, {});
 
     document.getElementById('submit-button').onclick = async function () {
