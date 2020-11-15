@@ -18,6 +18,7 @@ window.onload = async function () {
     const vocabTable = Object.keys(vocabData).reduce((result, key) => { result[vocabData[key]] = parseInt(key); return result; }, {});
 
     document.getElementById('submit-button').onclick = async function () {
+        var startTime = Date.now()
         var inputText = document.getElementById('original-text').value.split("\n");
 
         inputArray = inputText.map(value => value.split(""))
@@ -36,6 +37,8 @@ window.onload = async function () {
             return sentence.join("")
         }).join("\n")
 
-        document.getElementById('spaced-text').value = result
+        const elaspsedTime = Date.now() - startTime;
+        document.getElementById('elaspsed-time').innerHTML = "Elaspsed Time: " + elaspsedTime + " milliseconds";
+        document.getElementById('spaced-text').value = result;
     }
 }
