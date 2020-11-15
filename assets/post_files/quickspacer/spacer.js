@@ -8,9 +8,11 @@ function getAllIndexes(arr, val) {
 
 window.onload = async function () {
     document.getElementById('original-text').value = [
-        '마춤법좀잘마쳐서띄어쓰기좀해여',
+        '누가나한테우유를던졌어아주신선한우유를말이야',
+        '근데이거진짜로진짜제대로잘돌아가는거맞냐는게바로나의질문이란말이지',
         '',
         '아니근데이건좀너무한거아닙니까?',
+        '맞춤법좀잘맞춰서띄어쓰기좀해여'
     ].join("\n")
 
     const model = await tf.loadGraphModel('../assets/post_files/quickspacer/model.json');
