@@ -19,6 +19,8 @@ CNN을 이용한 한국어 띄어쓰기 교정 모델입니다. 속도를 가장
 
 # Demo
 <textarea style="width:100%" rows="8" id="original-text"></textarea>
-<button class="btn btn-primary btn-lg" id="submit-button">띄어쓰기</button>
+<button class="btn btn-primary btn-lg" id="submit-button1">띄어쓰기 (Level1)</button>
+<button class="btn btn-primary btn-lg" id="submit-button2">띄어쓰기 (Level2)</button>
+<button class="btn btn-primary btn-lg" id="submit-button3">띄어쓰기 (Level3)</button>
 <textarea readonly="" style="width:100%" rows="8" id="spaced-text"></textarea>
 <label id="elaspsed-time">Elaspsed Time: 0</label>

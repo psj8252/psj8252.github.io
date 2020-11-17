@@ -15,11 +15,13 @@ window.onload = async function () {
         '맞춤법좀잘맞춰서띄어쓰기좀해여'
     ].join("\n")
 
-    const model = await tf.loadGraphModel('../assets/post_files/quickspacer/model.json');
     const vocabData = (await (await fetch('../assets/post_files/quickspacer/vocab.txt')).text()).split('\n');
     const vocabTable = Object.keys(vocabData).reduce((result, key) => { result[vocabData[key]] = parseInt(key); return result; }, {});
+    const model1= await tf.loadGraphModel('../assets/post_files/quickspacer/model1/model.json');
+    const model2 = await tf.loadGraphModel('../assets/post_files/quickspacer/model2/model.json');
+    const model3 = await tf.loadGraphModel('../assets/post_files/quickspacer/model3/model.json');
 
-    document.getElementById('submit-button').onclick = async function () {
+    model_inference = async function (model) {
         var startTime = Date.now()
         var inputText = document.getElementById('original-text').value.split("\n");
 
@@ -43,4 +45,8 @@ window.onload = async function () {
         document.getElementById('elaspsed-time').innerHTML = "Elaspsed Time: " + elaspsedTime + " milliseconds";
         document.getElementById('spaced-text').value = result;
     }
+
+    document.getElementById('submit-button1').onclick = () => model_inference(model1)
+    document.getElementById('submit-button2').onclick = () => model_inference(model2)
+    document.getElementById('submit-button3').onclick = () => model_inference(model3)
 }
