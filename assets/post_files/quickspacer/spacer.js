@@ -46,6 +46,11 @@ window.onload = async function () {
         document.getElementById('spaced-text').value = result;
     }
 
+    document.getElementById('remove-space-button').onclick = async function () {
+        text = document.getElementById('original-text').value
+        document.getElementById('original-text').value = text.split(" ").join("")
+    }
+
     document.getElementById('submit-button1').onclick = () => model_inference(model1)
     document.getElementById('submit-button2').onclick = () => model_inference(model2)
     document.getElementById('submit-button3').onclick = () => model_inference(model3)
