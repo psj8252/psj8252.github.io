@@ -22,13 +22,16 @@ Level은 1,2,3 세 종류가 있으며 Level이 높을수록 일반적인 띄어
 <script src="../assets/post_files/quickspacer/spacer.js"></script>
 
 # Demo
-<textarea style="width:100%" rows="8" id="original-text"></textarea>
-<button class="btn btn-primary btn-lg" id="remove-space-button" style="color:red">Remove Spaces</button>
-<button class="btn btn-primary btn-lg" id="submit-button1">Level1</button>
-<button class="btn btn-primary btn-lg" id="submit-button2">Level2</button>
-<button class="btn btn-primary btn-lg" id="submit-button3">Level3</button>
-<textarea readonly="" style="width:100%" rows="8" id="spaced-text"></textarea>
-<label id="elaspsed-time">Elaspsed Time: 0</label>
+<img id="loading" src="../assets/post_files/quickspacer/loading.gif">
+<div id="space_demo" style="display:none;">
+    <textarea style="width:100%" rows="8" id="original-text"></textarea>
+    <button class="btn btn-primary btn-lg" id="remove-space-button" style="color:red">Remove Spaces</button>
+    <button class="btn btn-primary btn-lg" id="submit-button1">Level1</button>
+    <button class="btn btn-primary btn-lg" id="submit-button2">Level2</button>
+    <button class="btn btn-primary btn-lg" id="submit-button3">Level3</button>
+    <textarea readonly="" style="width:100%" rows="8" id="spaced-text"></textarea>
+    <label id="elaspsed-time">Elapsed Time: 0</label>
+</div>
 
 # Inference Speed
 
