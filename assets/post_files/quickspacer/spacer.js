@@ -7,7 +7,7 @@ function getAllIndexes(arr, val) {
 }
 
 window.onload = async function() {
-    document.getElementById('space_demo').style.textAlign = "none"
+    document.getElementById('space_demo').style.textAlign = "left"
 
     model3 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model3/model.json').then(model => {document.getElementById('submit-button3').onclick = () => model_inference(model)});
     model2 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model2/model.json').then(model => {document.getElementById('submit-button2').onclick = () => model_inference(model)});
