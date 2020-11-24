@@ -8,6 +8,11 @@ function getAllIndexes(arr, val) {
 
 window.onload = async function() {
     document.getElementById('space_demo').style.textAlign = "none"
+
+    model3 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model3/model.json').then(model => {document.getElementById('submit-button3').onclick = () => model_inference(model)});
+    model2 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model2/model.json').then(model => {document.getElementById('submit-button2').onclick = () => model_inference(model)});
+    model1 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model1/model.json').then(model => {document.getElementById('submit-button1').onclick = () => model_inference(model)});
+
     document.getElementById('original-text').value = [
         '누가나한테우유를던졌어아주신선한우유를말이야',
         '근데이거진짜로진짜제대로잘돌아가는거맞냐는게바로나의질문이란말이지',
@@ -18,9 +23,6 @@ window.onload = async function() {
 
     const vocabData = (await (await fetch('https://raw.githubusercontent.com/psj8252/quickspacer/master/quickspacer/resources/vocab.txt')).text()).split('\n');
     const vocabTable = Object.keys(vocabData).reduce((result, key) => { result[vocabData[key]] = parseInt(key); return result; }, {});
-    model1 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model1/model.json').then(model => {document.getElementById('submit-button1').onclick = () => model_inference(model)});
-    model2 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model2/model.json').then(model => {document.getElementById('submit-button2').onclick = () => model_inference(model)});
-    model3 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model3/model.json').then(model => {document.getElementById('submit-button3').onclick = () => model_inference(model)});
 
     model_inference = async function (model) {
         var startTime = Date.now()
@@ -51,10 +53,6 @@ window.onload = async function() {
         text = document.getElementById('original-text').value
         document.getElementById('original-text').value = text.split(" ").join("")
     }
-
-    document.getElementById('submit-button1').onclick = () => model_inference(model1)
-    document.getElementById('submit-button2').onclick = () => model_inference(model2)
-    document.getElementById('submit-button3').onclick = () => model_inference(model3)
 
     await model1
     await model2
