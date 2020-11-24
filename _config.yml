@@ -9,6 +9,9 @@ background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://psj8252.github.io
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
 
 # Jekyll
 permalink:          /:title/
@@ -42,7 +45,7 @@ email:              psj8252@네이버
 facebook:           psj8252
 github-url:         psj8252
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:          psj8252
 #xing:              username
 #instagram:          username
 #lastfm:            username
