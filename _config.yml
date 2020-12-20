@@ -33,9 +33,9 @@ disqus_shortname:   psj8252
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:
+  analytics:        G-97ZXEQTTPZ
   #verify:
   #ad-client:
   #ad-slot:
