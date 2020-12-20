@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Training with Quantization Noise for Extreme Model Compression 리뷰
-comments: false
+comments: true
 excerpt: Facebook AI Research의 Training with Quantization Noise for Extreme Model Compression 논문을 리뷰하고 내용을 요약해보았습니다.
 tag:
 - Machine Learning

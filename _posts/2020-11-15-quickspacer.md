@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 한국어 띄어쓰기 교정 모델 개발 (Quickspacer)
-comments: false
+comments: true
 project: true
 tag:
 - Machine Learning
