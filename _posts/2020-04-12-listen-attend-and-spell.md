@@ -9,9 +9,7 @@ tag:
 - LAS
 ---
 
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 
 2016년에 제안된 음성인식 모델이다. 핵심은 BiLSTM+Attention 기반 seq2seq를 음성인식에 활용해 end-to-end, generation 방식으로 음성인식 모델을 구현한 점인 것 같다.
 
