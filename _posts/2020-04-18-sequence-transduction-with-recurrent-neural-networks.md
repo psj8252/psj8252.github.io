@@ -17,6 +17,8 @@ tag:
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
 
+- [Sequence Transduction with Recurrent Neural Networks](https://arxiv.org/abs/1211.3711)
+
 # Abstract
 
 ---

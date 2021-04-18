@@ -13,6 +13,7 @@ tag:
 
 2016년에 제안된 음성인식 모델이다. 핵심은 BiLSTM+Attention 기반 seq2seq를 음성인식에 활용해 end-to-end, generation 방식으로 음성인식 모델을 구현한 점인 것 같다.
 
+- [Listen, Attend and Spell](https://arxiv.org/abs/1508.01211)
 # Abstract
 
 ---
