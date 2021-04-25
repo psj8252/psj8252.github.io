@@ -9,9 +9,9 @@ function getAllIndexes(arr, val) {
 window.onload = async function() {
     document.getElementById('space_demo').style.textAlign = "left"
 
-    model3 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model3/model.json').then(model => {document.getElementById('submit-button3').onclick = () => model_inference(model)});
-    model2 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model2/model.json').then(model => {document.getElementById('submit-button2').onclick = () => model_inference(model)});
-    model1 = tf.loadGraphModel('https://raw.githubusercontent.com/psj8252/quickspacer/master/tfjs_models/model1/model.json').then(model => {document.getElementById('submit-button1').onclick = () => model_inference(model)});
+    model3 = tf.loadGraphModel('https://raw.githubusercontent.com/cosmoquester/quickspacer/master/tfjs_models/model3/model.json').then(model => {document.getElementById('submit-button3').onclick = () => model_inference(model)});
+    model2 = tf.loadGraphModel('https://raw.githubusercontent.com/cosmoquester/quickspacer/master/tfjs_models/model2/model.json').then(model => {document.getElementById('submit-button2').onclick = () => model_inference(model)});
+    model1 = tf.loadGraphModel('https://raw.githubusercontent.com/cosmoquester/quickspacer/master/tfjs_models/model1/model.json').then(model => {document.getElementById('submit-button1').onclick = () => model_inference(model)});
 
     document.getElementById('original-text').value = [
         '누가나한테우유를던졌어아주신선한우유를말이야',
@@ -21,7 +21,7 @@ window.onload = async function() {
         '맞춤법좀잘맞춰서띄어쓰기좀해여'
     ].join("\n")
 
-    const vocabData = (await (await fetch('https://raw.githubusercontent.com/psj8252/quickspacer/master/quickspacer/resources/vocab.txt')).text()).split('\n');
+    const vocabData = (await (await fetch('https://raw.githubusercontent.com/cosmoquester/quickspacer/master/quickspacer/resources/vocab.txt')).text()).split('\n');
     const vocabTable = Object.keys(vocabData).reduce((result, key) => { result[vocabData[key]] = parseInt(key); return result; }, {});
 
     model_inference = async function (model) {

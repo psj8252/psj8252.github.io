@@ -12,7 +12,7 @@ tag:
 Convolution을 이용한 간단한 한국어 띄어쓰기 교정 모델입니다. 속도를 우선으로 고려하였습니다.
 아래에서 바로 사용해보실 수 있습니다. 이 데모의 모델들은 [모두의 말뭉치](https://corpus.korean.go.kr) **국립국어원 문어 말뭉치(버전 1.0)** 데이터를 이용하여 학습한 모델입니다.
 
-파이썬으로 설치해서 사용하고 싶으시거나 더 자세한 사항은 [Quickspacer 레포지토리](https://github.com/psj8252/quickspacer)를 참고해주세요.
+파이썬으로 설치해서 사용하고 싶으시거나 더 자세한 사항은 [Quickspacer 레포지토리](https://github.com/cosmoquester/quickspacer)를 참고해주세요.
 
 Level은 1,2,3 세 종류가 있으며 Level이 높을수록 일반적인 띄어쓰기 성능이 높지만 더 추론이 오래걸립니다. 버튼을 눌러보면 시간이 왜 이리 오래 걸리지 싶으실 수 있는데 웹에서 Javascript로 돌리는 것을 감안해주시면 좋겠습니다. (파이썬으로 설치해서 사용하거나 Tensorflow Serving으로 serving하면 당연히 훨씬 빠릅니다.)
 
