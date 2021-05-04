@@ -4,7 +4,7 @@ title: What Do Compressed Deep Neural Networks Forget? 리뷰
 comments: true
 excerpt: Google의 What Do Compressed Deep Neural Networks Forget? 논문을 리뷰하고 내용을 요약해보았습니다.
 tag:
-- Machine Learning
+- Deep Learning
 - NLP
 - Quantization
 - Pruning

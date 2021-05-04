@@ -4,9 +4,7 @@ title: "Conformer: Convolution-augmented Transformer for Speech Recognition 리�
 comments: true
 excerpt: "Google의 Conformer: Convolution-augmented Transformer for Speech Recognition 논문을 리뷰하고 내용을 요약해보았습니다."
 tag:
-- Machine Learning
-- Deep Learning
-- Generalization
+- Automatic Speech Recognition
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">

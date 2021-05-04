@@ -4,8 +4,7 @@ title: Sequence Transduction with Recurrent Neural Networks 리뷰
 comments: true
 excerpt: Sequence Transduction with Recurrent Neural Networks 논문을 리뷰하고 내용을 요약해보았습니다.
 tag:
-- Machine Learning
-- Speech
+- Automatic Speech Recognition
 - Transducer
 ---
 

@@ -4,9 +4,7 @@ title: Listen, Attend and Spell 리뷰
 comments: true
 excerpt: Listen, Attend and Spell 논문을 리뷰하고 내용을 요약해보았습니다.
 tag:
-- Machine Learning
-- Speech
-- LAS
+- Automatic Speech Recognition
 ---
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
