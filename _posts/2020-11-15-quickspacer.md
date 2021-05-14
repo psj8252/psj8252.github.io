@@ -7,6 +7,7 @@ tag:
 - NLP
 - Korean
 - Develop
+- Tensorflow 2
 ---
 
 Convolution을 이용한 간단한 한국어 띄어쓰기 교정 모델입니다. 속도를 우선으로 고려하였습니다.
