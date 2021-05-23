@@ -29,7 +29,8 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   cosmoquester-github-io
+disqus_shortname:
+utterances_repo_name: cosmoquester/blog-comments
 
 # Social
 # if you don't have any of social below, comment the line.
