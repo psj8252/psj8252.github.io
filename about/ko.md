@@ -15,7 +15,7 @@ comments: false
 
 Sungkyunkwan University Suwon, South Korea
 * __Grade__: 소프트웨어대학 소프트웨어학 학사과정 3학년
-* __GPA__: 4.28 / 4.5
+* __GPA__: 4.29 / 4.5
 * __Honors__: TOPCIT 육군참모총장상, 학생성공장학금, 학업우수장학금, SKKU BugBounty 2018 장려상, SKKU BugBounty 2017 특별상, Deans’s Award
 * __Coursework__: 자료구조, 알고리즘, 문제해결기법, 논리회로, 이산수학, 선형대수, 암호론, 시스템프로그램, 컴퓨터구조개론, 컴퓨터네트워크개론,
 오픈소스SW실습, 데이터베이스개론, 기계학습개론
