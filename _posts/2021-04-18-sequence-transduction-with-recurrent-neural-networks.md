@@ -128,7 +128,7 @@ $$\alpha(t,u) = \alpha(t-1, u)\varnothing(t-1, u) + \alpha(t,u-1)y(t,u-1)$$
 - $$\alpha(1,0) = 1$$
 - 아래 그림 상에서 오른쪽 화살표의 의미가 왼쪽 항, 위쪽 화살표의 의미가 오른쪽 항이다.
 
-![](../assets/post_files/sequence-transduction-with-recurrent-neural-networks/1.png)
+![](../assets/post_files/2021-04-18-sequence-transduction-with-recurrent-neural-networks/1.png)
 
 - 전체 출력 sequence의 확률은 마지막 노드에서의 확률과 같다.
 
@@ -171,7 +171,7 @@ $$\Pr(\bm{y^*|x})=\sum_{(t,u):t+u=n} \alpha(t,u)\beta(t,u)$$
 - TIMIT 데이터셋을 train 셋은 3696개, test 셋은 192개로, 39종류의 음성기호로 전사된 발화를 사용했다.
 - 입력은 26채널 mel-frequency filter bank를 사용했다.
 
-![](../assets/post_files/sequence-transduction-with-recurrent-neural-networks/2.png)
+![](../assets/post_files/2021-04-18-sequence-transduction-with-recurrent-neural-networks/2.png)
 
 - 전체적으로 transducer는 CTC보다 조금 나은 성능을 보여줬지만 이는 TIMIT데이터셋이 너무 작아서 그런 걸로 보임.
 - 더 큰 데이터셋에서 더 커다란 개선을 보일 것으로 기대함.

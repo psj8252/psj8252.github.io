@@ -21,11 +21,11 @@ tag:
 
 기학습된 모델에 Scalar Quantiztion과 같은 방법을 적용하는 것은 좋은 압축률을 보이지만 오류가 누적되면 큰 성능 하락을 일으킬 수 있다. 이 문제를 해결하기 위해 학습 중에도 Quantization을 적용하고자 했지만 그랬을 때 문제는 대부분의 이산화(discretization) 연산은 Gradient가 없다는 점이다. 대부분 미분했을 때 0이 된다.
 
-![연속적인 값과 이산적인 값 사진 출처:https://www.geeksforgeeks.org/ml-binning-or-discretization/](../assets/post_files/training-with-quantization-noise/img1.png)
+![연속적인 값과 이산적인 값 사진 출처:https://www.geeksforgeeks.org/ml-binning-or-discretization/](../assets/post_files/2020-12-18-training-with-quantization-noise/img1.png)
 
 간단히 생각해보면 원래 값이 어떤 실수x라고 했을 때, 이 숫자를 1bit로 discretization한다고 생각해보자. x가 0보다 크면 1, 아니면 0이다. 그러면 이 함수의 그래프를 그려보면
 
-![불연속함수](../assets/post_files/training-with-quantization-noise/img2.png)
+![불연속함수](../assets/post_files/2020-12-18-training-with-quantization-noise/img2.png)
 
 이런 모양이 된다. 여기서 고등수학을 배운 사람들이라면 이 함수의 x대한 미분값은 그래프의 기울기라는 것을 알 것이다. 기울기는 모든 곳에서 0이다. 본질적으로 이산화 연산은 어쨌든 연속 공간에 있는 값을 특정한 몇 개로 줄이는 연산이기 때문에 gradient가 거의 0이 되는 것이다.
 
@@ -109,7 +109,7 @@ Fixed-Point Scalar Quantization을 Product Quantization과 함께 적용했다. 
 
 Quant-Noise를 이용해 학습을 시키는 방법은 다음과 같다.
 
-| ![Training without Quant-Noise](../assets/post_files/training-with-quantization-noise/img3.png) | ![Training with Quant-Noise](../assets/post_files/training-with-quantization-noise/img4.png) |
+| ![Training without Quant-Noise](../assets/post_files/2020-12-18-training-with-quantization-noise/img3.png) | ![Training with Quant-Noise](../assets/post_files/2020-12-18-training-with-quantization-noise/img4.png) |
 
 1. 각 블럭 $$b_{kl}$$마다 quantization함수를 계산한다.
 2. 각 forward 마다 랜덤하게 블럭 중에 일부를 선택하고 그 블럭에 Quant-Noise를 적용한다.
@@ -151,8 +151,8 @@ $$\varphi_{proxy}(\mathbf{v})=0$$
 
 ### Comparison of different quantization shcemes with and without Quant-Noise
 
-![Comparison of different quantization schemes with and without Quant-Noise](../assets/post_files/training-with-quantization-noise/img5.png)
-![Decomposing the impact of the different compression schemes.](../assets/post_files/training-with-quantization-noise/img6.png)
+![Comparison of different quantization schemes with and without Quant-Noise](../assets/post_files/2020-12-18-training-with-quantization-noise/img5.png)
+![Decomposing the impact of the different compression schemes.](../assets/post_files/2020-12-18-training-with-quantization-noise/img6.png)
 
 - 결과적으로 모든 경우에서 Quant-Noise를 적용하면 성능이 향상됨
 - iPQ같은 높은 performance를 내는 method와 함께 적용했을 때 효과가 좋음
@@ -160,20 +160,20 @@ $$\varphi_{proxy}(\mathbf{v})=0$$
 
 ### Comparison with SOTA
 
-![Comparison of different quantization schemes with and without Quant-Noise](../assets/post_files/training-with-quantization-noise/img7.png)
+![Comparison of different quantization schemes with and without Quant-Noise](../assets/post_files/2020-12-18-training-with-quantization-noise/img7.png)
 
 그래프를 봤을 때 확실히 Quant-Noise 방식보다 Ideal에 가까운 모델은 없다. Quant-Noise모델보다 사이즈가 작으면서 그 이상의 성능을 내는 모델이 없다는 것이다.
 
 ### Quant-Noise: Finetuning vs training
 
-![Quant-Noise: Finetuning vs training](../assets/post_files/training-with-quantization-noise/img8.png)
+![Quant-Noise: Finetuning vs training](../assets/post_files/2020-12-18-training-with-quantization-noise/img8.png)
 Train with Quant-Noise는 Quant-Noise를 적용해 학습을 시킨 모델이며, Train without Quant-Noise은 Quant-Noise를 적용하지 않고 그냥 finetune시킨 모델이다.
 표를 보면 **이미 학습이 끝난 모델에 추가적인 finetune을 해도 처음부터 Quant-Noise로 학습시킨 것과 비슷한 결과**를 얻을 수 있다.
 without Quant-Noise + Finetune의 경우 Language Model은 10 epoch, RoBERTa는 25k를 추가적으로 학습시켰다고 한다.
 
 ### Impact of Approximating the Noise Function
 
-![Exact versus proxy noise function for different block selections with iPQ](../assets/post_files/training-with-quantization-noise/img9.png)
+![Exact versus proxy noise function for different block selections with iPQ](../assets/post_files/2020-12-18-training-with-quantization-noise/img9.png)
 $$\varphi_{proxy}$$를 이용했을 때와 $$\varphi_{\mathsf{PQ}}$$ Noise 함수를 이용했을 때의 결과를 비교한 것이다.
 놀랍게도 거의 **차이가 없었**다.
 저자는 subvector들 간의 상관관계를 증가시키는 것 만으로도 iPQ quantization에서 모델의 성능을 유지하는 데에는 충분하다고 했다.

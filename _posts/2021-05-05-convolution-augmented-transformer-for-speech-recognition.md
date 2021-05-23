@@ -35,7 +35,7 @@ tag:
 
 ---
 
-![](../assets/post_files/convolution-augmented-transformer-for-speech-recognition/1.png)
+![](../assets/post_files/2021-05-05-convolution-augmented-transformer-for-speech-recognition/1.png)
 
 - 모델은 먼저 convolution subsampling layer를 통과하고 많은 conformer block을 통과한다.
 - 이 모델의 차별점은 Transformer대신에 Conformer를 사용한 것이다.
@@ -46,14 +46,14 @@ tag:
 - [Transformer-XL](https://arxiv.org/abs/1901.02860)의 테크닉을 참고하여 relative sunusoidal positional encoding을 적용하였고 이는 input의 길이가 달라져도 더 일반화가 잘 일어나도록 한다.
 - Regularization을 위해 dropout과 함께 Prenorm residual units을 사용하였다.
 
-![](../assets/post_files/convolution-augmented-transformer-for-speech-recognition/2.png)
+![](../assets/post_files/2021-05-05-convolution-augmented-transformer-for-speech-recognition/2.png)
 
 ## Convolution Module
 
 - Pointwise convolution과 gated linear unit를 활용하는 [gating mechanism](https://arxiv.org/abs/1612.08083)을 적용하였다.
 - 그 후에 1-D depthwise convolution을 적용하였다.
 
-![](../assets/post_files/convolution-augmented-transformer-for-speech-recognition/3.png)
+![](../assets/post_files/2021-05-05-convolution-augmented-transformer-for-speech-recognition/3.png)
 
 ## Feed Forward Module
 
@@ -61,7 +61,7 @@ tag:
 - 이 구조는 ASR에서도 적합하다.
 - 논문에서는 pre-norm residual units로 layer normalization을 적용했으며 Swish activation과 dropout을 사용했다.
 
-![](../assets/post_files/convolution-augmented-transformer-for-speech-recognition/4.png)
+![](../assets/post_files/2021-05-05-convolution-augmented-transformer-for-speech-recognition/4.png)
 
 ## Conformer Block
 
@@ -95,13 +95,13 @@ $$y_i = \mathrm{Layernorm}(x_i''+ \frac12 \mathrm{FFN}(x_i''))$$
 - 여러 조합으로 실험한 끝에 각 파라미터 제약에서 가장 효율적인 10M, 30M, 118M 세 모델을 선정했다.
 - 모든 모델 개발에 single LSTM layer decoder를 사용했다.
 
-![](../assets/post_files/convolution-augmented-transformer-for-speech-recognition/5.png)
+![](../assets/post_files/2021-05-05-convolution-augmented-transformer-for-speech-recognition/5.png)
 
 - 3-layer LSTM 기반의 language model(LM)을 사용하여 결과를 보정했다.
 
 ## Results on LibriSpeech
 
-![](../assets/post_files/convolution-augmented-transformer-for-speech-recognition/6.png)
+![](../assets/post_files/2021-05-05-convolution-augmented-transformer-for-speech-recognition/6.png)
 
 - 저자들이 개발한 모델들은 비교표에서 모두 가장 작은 WER을 보이며 Transformer와 convolution을 함께 사용하는 것이 효과적임을 보였다.
 
@@ -111,7 +111,7 @@ $$y_i = \mathrm{Layernorm}(x_i''+ \frac12 \mathrm{FFN}(x_i''))$$
 
 - Conformer는 Transformer와 Convolution의 사용이나 feed forward의 방식 등 여러 면에서 다르다. 각각의 영향을 알아보기 위해 Conformer의 특징을 하나씩 빼면서 결과를 관찰했다.
 
-![](../assets/post_files/convolution-augmented-transformer-for-speech-recognition/7.png)
+![](../assets/post_files/2021-05-05-convolution-augmented-transformer-for-speech-recognition/7.png)
 
 - Convolution Block이 가장 큰 영향을 끼쳤다.
 

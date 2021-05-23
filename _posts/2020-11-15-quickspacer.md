@@ -20,10 +20,10 @@ Level은 1,2,3 세 종류가 있으며 Level이 높을수록 일반적인 띄어
 본 모델은 띄어쓰기를 추가하는 기능만 있기 때문에 띄어쓰기를 없앨 필요가 있다면 그냥 띄어쓰기를 모두 없앤 상태에서 띄어쓰기 하시면 됩니다. `Remove Spaces`버튼으로 띄어쓰기를 모두 없앨 수 있습니다.
 
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.7.0/dist/tf.min.js"></script>
-<script src="../assets/post_files/quickspacer/spacer.js"></script>
+<script src="../assets/post_files/2020-11-15-quickspacer/spacer.js"></script>
 
 # Demo
-<img id="loading" src="../assets/post_files/quickspacer/loading.gif">
+<img id="loading" src="../assets/post_files/2020-11-15-quickspacer/loading.gif">
 <div id="space_demo" style="display:none;">
     <textarea style="width:100%" rows="8" id="original-text"></textarea>
     <button class="btn btn-primary btn-lg" id="remove-space-button" style="color:red">Remove Spaces</button>
@@ -52,7 +52,7 @@ Level은 1,2,3 세 종류가 있으며 Level이 높을수록 일반적인 띄어
 
 (좀 더 가볍게 만들어봐야 될 듯...)
 
-<img src="../assets/post_files/quickspacer/Figure_1.png">
+<img src="../assets/post_files/2020-11-15-quickspacer/Figure_1.png">
 
 패딩이 얼마나 낭비되는 지 보기 위해 문장의 길이를 그래프로 그려보았습니다. 보면 대부분의 문장은 100보다 한참 아래, 한 30 부근에 위치해 있습니다. 그런데 최대로 긴 건 700부근에 하나 있고 400에서 500사이에도 몇 개가 있습니다. 그렇다면 30짜리 문장들이 PAD를 대충 470개 이상 달고 추론을 했다는 뜻이 될 것입니다. 낭비가 좀 심하네요. 그래서 다시 한 번 실험을 해보았습니다. 저 키다리 파일을 문장의 길이가 128이 넘어가는 경우는 다음 줄로 넘긴 것입니다. 파일의 용량은 452kb로 줄었습니다.(압축을 하나?) 총 글자수는 \n 때문에 201756->202007로 분명 좀 더 늘었고 line의 수도 4400로 조금 늘었습니다.
 

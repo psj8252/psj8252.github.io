@@ -176,7 +176,7 @@ $$\frac1{\gamma_{margin}^2} \Pi_{i=1}^d h_i\|W_i\|_2^2$$
 
 이 식들은 parameter 수와 독립적으로 norm의 측면에서 capacity의 경계를 설정할 수 있다.
 
-![](../assets/post_files/exploring-generalization-in-deep-learning/1.png)
+![](../assets/post_files/2021-04-19-exploring-generalization-in-deep-learning/1.png)
 
 저자들은 norm을 실제 레이블과 랜덤레이블로 학습했을 때를 비교했다. 저자들이 기대한 것은 두 가지이다.
 
@@ -237,7 +237,7 @@ $$\zeta_\alpha(\mathbf{w}) = \frac{\max_{|\nu_i| \le \alpha(|\mathbf{w}_i|+1)}\w
 
 여기서 $$\widehat{L}(f_\mathbf{w})$$는 보통 neural net에서 매우 작기 때문에 중요하지 않은 것으로 보아 sharpness를 제시한 저자들은 단순하게 분모를 무시했다.
 
-![](../assets/post_files/exploring-generalization-in-deep-learning/2.png)
+![](../assets/post_files/2021-04-19-exploring-generalization-in-deep-learning/2.png)
 
 **하지만 sharpness는 모델의 일반화를 측정할 수 없다.**
 
@@ -302,7 +302,7 @@ $$\mathbb{E}_\nu[L(f_\mathbf{w+\nu})] \le \widehat{L}(f_\mathbf{w}) + \underbrac
 
 ## Difference Global Minima
 
-![](../assets/post_files/exploring-generalization-in-deep-learning/3.png)
+![](../assets/post_files/2021-04-19-exploring-generalization-in-deep-learning/3.png)
 
 여러 방법으로 objective function에 대한 global minima에 도달한 모델들을 어떻게 비교할까?
 
@@ -315,7 +315,7 @@ MNIST 데이터셋을 이용해 모델의 크기에 따라 measure들이 영향�
 
 - 저자들은 sensible compexity measure라면 test error의 양상처럼 모델 크기가 커짐에 따라 예측 값이 작아지기를 기대했다.
 
-![](../assets/post_files/exploring-generalization-in-deep-learning/4.png)
+![](../assets/post_files/2021-04-19-exploring-generalization-in-deep-learning/4.png)
 
 - norm 기반의 접근은 hidden unit이 128까지는 유효한 예측을 했지만 norm은 앞서 말한 대로 hidden unit의 개수에 의존성이 있기 때문에 그 이후는 제대로 예측하지 못했다.
 - expected sharpness의 경우에도 128까지는 제대로 예측했지만 그 보다 더 큰 네트워크의 일반화를 제대로 설명하지 못했다.

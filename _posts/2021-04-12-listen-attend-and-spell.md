@@ -55,7 +55,7 @@ $$\mathbf{h}=Listen(\mathbf{x})$$
 
 $$P(\mathbf{y|x})=AttendAndSpell(\mathbf{h,y})$$
 
-![](../assets/post_files/listen-attend-and-spell/1.png)
+![](../assets/post_files/2021-04-12-listen-attend-and-spell/1.png)
 
 ## Listen
 
@@ -106,31 +106,31 @@ $$s(\mathbf{y|x}) = \frac{\log P(\mathbf{y|x})} {|\mathbf{y}|_c} + \lambda \log 
 
 # Experiment
 
-![](../assets/post_files/listen-attend-and-spell/2.png)
+![](../assets/post_files/2021-04-12-listen-attend-and-spell/2.png)
 
 - 기존 Sota와 비교했을 때 떨어지지만 나쁘지 않은 성능을 보여주었다
 
 ## Effects of Beam Width
 
-![](../assets/post_files/listen-attend-and-spell/3.png)
+![](../assets/post_files/2021-04-12-listen-attend-and-spell/3.png)
 
 - Beam size는 클수록 좋아졌지만 16 이후로는 큰 차이가 없었다.
 
 ## Effects of Untterance Length
 
-![](../assets/post_files/listen-attend-and-spell/4.png)
+![](../assets/post_files/2021-04-12-listen-attend-and-spell/4.png)
 
 - 문장이 짧으면 단어를 놓치는 경우가 많아서 에러율이 높았다.
 - 발화가 길어지면 generalize하는데 어려움을 겪는다. (Generation 방식이라 심할 것 같다)
 
 ## Interesting Decoding Examples
 
-![](../assets/post_files/listen-attend-and-spell/5.png)
+![](../assets/post_files/2021-04-12-listen-attend-and-spell/5.png)
 
 - 실험 중 LAS가 하나의 음성에서 여러개의 스펠링 방법을 배우는 것을 관찰했다. ("triple a"를 발음 그대로가 아니라 "aaa"로 표현)
 - 위 표는 "triple a"가 들어있는 음성을 인식시킨 결과이다. $$y_i$$의 예측과 $$y_{i+1}$$의 예측이 독립적인 CTC를 사용했을 때는 저런 결과를 관찰할 수 없다.
 
-![](../assets/post_files/listen-attend-and-spell/6.png)
+![](../assets/post_files/2021-04-12-listen-attend-and-spell/6.png)
 
 - 또 놀랐던 점은 LAS가 내용 기반의 어텐션을 사용해서 같은 단어가 여러 번 반복될 때 빼먹거나 더 많이 출력할 줄 알았는데 그렇지 않았다는 점이다.
 - 이는 같은 단어의 반복을 표현하는 데 있어 위치기반 어텐션이 필수적이지는 않을 수 있다는 점을 시사한다.

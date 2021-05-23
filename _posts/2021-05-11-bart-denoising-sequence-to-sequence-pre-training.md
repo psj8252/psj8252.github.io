@@ -84,7 +84,7 @@ BART는 다른 모델과는 다르게 어떠한 종류의 noise도 적용할 수
 - 저자들은 번역에서 BART를 decoder로 사용했다. 번역을 학습할 때 decoder 부분은 유지하고 encoder와 embedding새로 random하게 initialize했다. 이러면 다른 vocab을 사용할 수 있게된다.
 - 학습은 2 단계로 진행되는데 첫 번째는 BART의 기존 parameter를 freeze 시키고 학습하는 것이고 두 번째는 모든 parameter를 학습시키는 것이다.
 
-![](../assets/post_files/bart-denoising-sequence-to-sequence-pre-training/1.png)
+![](../assets/post_files/2021-05-11-bart-denoising-sequence-to-sequence-pre-training/1.png)
 
 
 # Comparing Pre-training Objectives
@@ -131,7 +131,7 @@ SQuAD, MNLI, ELI5, XSum, ConvAI2, CNN/DM Task를 활용하였다.
 
 ## Results
 
-![](../assets/post_files/bart-denoising-sequence-to-sequence-pre-training/2.png)
+![](../assets/post_files/2021-05-11-bart-denoising-sequence-to-sequence-pre-training/2.png)
 
 - pretraining 방법의 효과성은 task마다 상당히 달랐다.
 - 다만 Document Rotation과 Sentence Shuffling의 성능을 보면 Token masking은 필수적인 것으로 보인다.
@@ -139,13 +139,13 @@ SQuAD, MNLI, ELI5, XSum, ConvAI2, CNN/DM Task를 활용하였다.
 - SQuad에서는 left-to-right 모델이 약하며 Bidirectional encoder구조가 필수적이다. BART는 절반의 bidirectional layer로도 비슷한 성능을 얻었다.
 - BART는(특히 text-infilling) 대부분의 Task에서 일관되게 좋은 성능을 보였다.
 
-![](../assets/post_files/bart-denoising-sequence-to-sequence-pre-training/3.png)
+![](../assets/post_files/2021-05-11-bart-denoising-sequence-to-sequence-pre-training/3.png)
 
 - SQuAD와 GLUE task에서도 RoBERTa와 비슷한 수준의 좋은 성능을 보였다.
 
-![](../assets/post_files/bart-denoising-sequence-to-sequence-pre-training/4.png)
+![](../assets/post_files/2021-05-11-bart-denoising-sequence-to-sequence-pre-training/4.png)
 
-![](../assets/post_files/bart-denoising-sequence-to-sequence-pre-training/5.png)
+![](../assets/post_files/2021-05-11-bart-denoising-sequence-to-sequence-pre-training/5.png)
 
 - 요약이나 대화형 생성 Task에서도 좋은 결과를 보였다.
 
