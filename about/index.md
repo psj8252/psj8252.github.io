@@ -27,7 +27,7 @@ Sungkyunkwan University Suwon, South Korea
 __Scatterlab__ &emsp; Seoul, Korea  
 *Machine Learning Engineer* &emsp; [02. 2020] - [Present]
 
-- Participanted developing open domain conversational chatbot agent Luda-Lee.
+- Participanted developing open domain conversational chatbot agent [Luda-Lee](https://luda.ai/).
 - Developed dataset management and automated model evaluate platform backend with Python and AWS Dynamo DB.  
 - Research and Develop Person Name Recognition model and filter curse, sexual or containing person name utterances.
 - Implemented weather synchronization and condition calculator using  Meteorological Agency API with MongoDB and Java Spring Boot.
