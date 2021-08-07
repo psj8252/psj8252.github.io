@@ -6,10 +6,7 @@ date: 2019-12-6
 comments: false
 ---
 
-<center>
-    <p>Last Updated at 21.08.07.</p>
-    <a class="btn zoombtn" href="/about/ko">About Me (Korean)</a>
-</center>
+<center>Last Updated at 21.08.07.</center>
 
 ## Education
 
