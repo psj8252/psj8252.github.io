@@ -7,7 +7,7 @@ comments: false
 ---
 
 <center>
-    <p>Last Updated at 19.12.06.</p>
+    <p>Last Updated at 21.08.07.</p>
     <a class="btn zoombtn" href="/about/ko">About Me (Korean)</a>
 </center>
 
@@ -26,6 +26,21 @@ Sungkyunkwan University Suwon, South Korea
 ## Experience
 
 ---
+
+__Scatterlab__ &emsp; Seoul, Korea  
+*Machine Learning Engineer* &emsp; [02. 2020] - [Present]
+
+- Participanted developing open domain conversational chatbot agent Luda-Lee.
+- Developed dataset management and automated model evaluate platform backend with Python and AWS Dynamo DB.  
+- Research and Develop Person Name Recognition model and filter curse, sexual or containing person name utterances.
+- Implemented weather synchronization and condition calculator using  Meteorological Agency API with MongoDB and Java Spring Boot.
+- Research vector similarity framesworks and programmed a script for text embedding training and indexing with faiss.
+- Converted pytorch based model into Tensorflow based model and Implemented serving API for Tensorflow Serving.
+- Compressed Transformer based large NLP model with knowledge distillation method for reducing model inference time.
+- Updated Person Name Recognition model based on ELECTRA and Implemented de-identification algorithm.
+- Built Automated Pipeline to finetune pretrained LM model and evaluate metrics with kubeflow pipelines.
+- Researched and compared serveral server frameworks for serving vector similarity framework.
+- Researched and compared Pytorch based model serving methods like TorchServe, ONNX.
 
 __SW Maestro__ &emsp; Seoul, Korea  
 *Team Leader, Backend Developer, NLP Developer* &emsp; [05. 2019] - [11. 2019]
