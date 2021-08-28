@@ -53,7 +53,7 @@ huggingface 라이브러리를 처음 써본 결과 확실히 편하게 되어�
 
 ## Finetune
 
-pretraining의 loss와 metric 만으로는 모델이 정상적으로 학습되었는지 평가하기가 어려워서 finetune에 사용할 코드도 조금 구현해보았다. 어차피 task 자체에 사용할 건 아니고 학습이 되었는지 평가하기 위한 코드라 TF를 사용해서 대충?? 짜보았다. 처음에는 BART에만 사용할 수 있게 구현했다가 다른 사람들도 쉽게 돌려볼 수 있으면 좋을 것 같아서 일반 bert나 roberta 모델 등까지 호환이 가능하게 수정했다. (나머지는 BERT나 Roberta 등도 호환되고 Chatbot과 HateSpeech는 BART만 호환된다.)
+pretraining의 loss와 metric 만으로는 모델이 정상적으로 학습되었는지 평가하기가 어려워서 finetune에 사용할 코드도 조금 구현해보았다. 어차피 task 자체에 사용할 건 아니고 학습이 되었는지 평가하기 위한 코드라 간단한 task 몇 개를 골라서 TF를 사용해서 대충?? 짜보았다. 처음에는 BART에만 사용할 수 있게 구현했다가 다른 사람들도 쉽게 돌려볼 수 있으면 좋을 것 같아서 일반 bert나 roberta 모델 등까지 호환이 가능하게 수정했다. (나머지는 BERT나 Roberta 등도 호환되고 Chatbot과 HateSpeech는 BART만 호환된다.)
 
 Finetune에 사용한 코드는 [**`여기`**](https://github.com/cosmoquester/transformers-bart-finetune)에 있다.
 
