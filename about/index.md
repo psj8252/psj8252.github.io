@@ -6,7 +6,7 @@ date: 2019-12-6
 comments: false
 ---
 
-<center>Last Updated at 21.08.07.</center>
+<center>Last Updated at 21.11.12.</center>
 
 ## Education
 
@@ -38,6 +38,10 @@ __Scatterlab__ &emsp; Seoul, Korea
 - Built Automated Pipeline to finetune pretrained LM model and evaluate metrics with kubeflow pipelines.
 - Researched and compared serveral server frameworks for serving vector similarity framework.
 - Researched and compared Pytorch based model serving methods like TorchServe, ONNX.
+- Developed kubeflow pipelines to build parts of conversational agent like retriever, ranker, candidate utterances.
+- Developed test infra to evaluate each part of agent with kubernetes and helm enabling easy provision and termination of multiple conversational agents.
+- Applied authorization system for our internal kubernetes cluster using istio authorization policy.
+- Implemented tensorflow savedmodel converting scripts to serve our models on AWS Inferentia machine with neuron package.
 
 __SW Maestro__ &emsp; Seoul, Korea  
 *Team Leader, Backend Developer, NLP Developer* &emsp; [05. 2019] - [11. 2019]
