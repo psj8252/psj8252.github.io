@@ -50,12 +50,12 @@ __SW Maestro__ &emsp; Seoul, Korea
 - Application was downloaded 1000+. [StoryForest Play Store](https://play.google.com/store/apps/details?id=tk.swmlegato.storyforest)
 - Led our team as a team leader and managed project.
 - Developed chatbot scenario build framework with Python flask.
-- Researched and developed Natural Language Processing(NLP) modules such as sentence similarity or response generation, etc.
+- Researched and developed Natural Language Processing (NLP) modules such as sentence similarity or response generation, etc.
 
 __Altibase__ &emsp; Suwon, South Korea  
 *Industry-University cooperation* &emsp; [04. 2018] – [12. 2018]
 
-- Developed performance monitoring tool for Altibase(DBMS).
+- Developed performance monitoring tool for Altibase (DBMS).
 - Built the environment to save and visualize the performance data using ELK stack.
 
 __University of California, Irvine__ &emsp; Irvine, California, USA  
@@ -98,7 +98,7 @@ __FastCampus Natural Language Generation Education__ &emsp; Seoul, Korea
 *Student* &emsp; [07. 2019] - [09. 2019]
 
 - Learned from NLP basics to deep knowledges.
-- Learned Neural machine translation(NMT) with seq2seq and attention, RL, etc.
+- Learned Neural machine translation (NMT) with seq2seq and attention, RL, etc.
 
 __Freshman Python Education TA__ &emsp; Suwon, Korea  
 *Teaching Assistant* &emsp; [02. 2019]
@@ -108,7 +108,7 @@ __Freshman Python Education TA__ &emsp; Suwon, Korea
 __Campus Information Security Club__ &emsp; Suwon, Korea  
 *Club President* &emsp; [12. 2017] - [01. 2019]
 
-- Led Information Security Club(Hacker's In inTrusion).
+- Led Information Security Club (Hacker's In inTrusion).
 - Planned, construct and taught security study like System, Web Hacking, Forensic, etc.
 
 __2018 SKKU BugBounty__ &emsp; Suwon, South Korea  
