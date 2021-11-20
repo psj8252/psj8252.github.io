@@ -58,10 +58,10 @@ __Altibase__ &emsp; Suwon, South Korea
 - Developed performance monitoring tool for Altibase(DBMS).
 - Built the environment to save and visualize the performance data using ELK stack.
 
-__Robot Localization Simulation without GPS__ &emsp; Irvine, California, USA  
+__University of California, Irvine__ &emsp; Irvine, California, USA  
 *Undergraduate research project participant* &emsp; [07. 2018] – [08. 2018]
 
-- Participated robot localization project in UC Irvine Center for Embedded Computer Systems (CECS) with Elaheh Bozorgzadeh.
+- Participated non-GPS robot localization project in UC Irvine Center for Embedded Computer Systems (CECS) with Elaheh Bozorgzadeh.
 - Simulated single robot localization with dead-reckoning method in V-rep simulator and python.
 - Simulated multi robot localization with UKF filter MATLAB code.
 
