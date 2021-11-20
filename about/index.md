@@ -144,6 +144,6 @@ Cross Site Scripting or Web shell uploading.
 ---
 
 __Programming:__ Python, Go, Java, C, Arduino  
-__Technologies/Environments:__ Visual Studio Code, Visual Studio, Eclipse, MySQL, ELK Stack, Flask, Tensorflow, Pytorch, Windows, Linux, OS X, AWS, GCP  
+__Technologies/Environments:__ Visual Studio Code, Tensorflow, Pytorch, Docker, Flask, Kubernetes, Kubeflow, Faiss, AWS, GCP  
 __Language skill:__ Korean(native), English(Intermediate, Opic IM2)  
 __Interests:__ Writing, Calligraphy, Playing piano, Board Game, Reading books, Astronomical observation, Magic  
