@@ -83,6 +83,12 @@ __Microsoft__ &emsp; Suwon, South Korea
 
 ---
 
+__2021 Korean Voice and Natural Language AI competition__ &emsp; Seoul, Korea  
+*1st Prize* &emsp; [09. 2021] - [11. 2021]
+
+- Participated dialogue summarization competition with a total prize of $27K.
+- Researched and developed dialogue summarization model as team leader.
+
 __Arduino Mentoring__ &emsp; Suwon, Korea  
 *Arduino Instructor* &emsp; [12. 2019]
 
