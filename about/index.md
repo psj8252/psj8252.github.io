@@ -6,7 +6,7 @@ date: 2019-12-6
 comments: false
 ---
 
-<center>Last Updated at 21.11.12.</center>
+<center>Last Updated at 21.12.01.</center>
 
 ## Education
 
@@ -83,7 +83,7 @@ __Microsoft__ &emsp; Suwon, South Korea
 
 ---
 
-__2021 Korean Voice and Natural Language AI competition__ &emsp; Seoul, Korea  
+[__2021 Korean Voice and Natural Language AI competition__](http://aihub-competition.or.kr/hangeul) &emsp; Seoul, Korea  
 *1st Prize* &emsp; [09. 2021] - [11. 2021]
 
 - Participated dialogue summarization competition with a total prize of $27K.
