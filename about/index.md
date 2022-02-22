@@ -6,7 +6,7 @@ date: 2019-12-6
 comments: false
 ---
 
-<center>Last Updated at 21.12.01.</center>
+<center>Last Updated at 22.02.22.</center>
 
 ## Education
 
@@ -42,6 +42,9 @@ __Scatterlab__ &emsp; Seoul, Korea
 - Developed test infra to evaluate each part of agent with kubernetes and helm enabling easy provision and termination of multiple conversational agents.
 - Applied authorization system for our internal kubernetes cluster using istio authorization policy.
 - Implemented tensorflow savedmodel converting scripts to serve our models on AWS Inferentia machine with neuron package.
+- Conversation module sanity check and trouble shooting with beta release.
+- Developed labeling system and add ranker labeling job for ranker finetune.
+- Extract data from bigquery and make dataset to enable labeling for calculate conversation metrics.
 
 __SW Maestro__ &emsp; Seoul, Korea  
 *Team Leader, Backend Developer, NLP Developer* &emsp; [05. 2019] - [11. 2019]
@@ -87,7 +90,7 @@ __Microsoft__ &emsp; Suwon, South Korea
 *1st Prize* &emsp; [09. 2021] - [11. 2021]
 
 - Participated dialogue summarization competition with a total prize of $27K.
-- Researched and developed dialogue summarization model as team leader.
+- Researched and developed dialogue summarization model as team leader. [__[Github]__](https://github.com/cosmoquester/2021-dialogue-summary-competition)
 
 __Arduino Mentoring__ &emsp; Suwon, Korea  
 *Arduino Instructor* &emsp; [12. 2019]
