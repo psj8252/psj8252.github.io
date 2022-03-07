@@ -16,13 +16,13 @@ tag:
 
 BART 논문을 봤을 때는 Infilling Mask 노이즈만 사용해도 충분히 성능이 잘 나오는 걸로 보여 노이즈 함수는 infilling mask만 사용했다.
 
-Pretraining 코드는 [**`여기`**](https://github.com/cosmoquester/transformers-bart-pretrain)에 구현해두었다.
+Pretraining 코드는 [https://github.com/cosmoquester/transformers-bart-pretrain](https://github.com/cosmoquester/transformers-bart-pretrain)에 구현해두었다.
 
 huggingface 라이브러리를 처음 써본 결과 확실히 편하게 되어있었다. 예전에 Transformer를 TF로 쌩으로 구현해서 학습시켰을 때와 비교했을 때 model code를 구현할 필요가 없다는 점과 huggingface hub에 tokenizer와 모델을 간단히 보관하고 관리할 수 있는 것은 큰 장점인 것 같다. 또 hub에서는 간단한 inference api도 사용해볼 수 있다.
 
 다만 huggingface tokenizer는 tensorflow-text처럼 graph에 호환되는 연산이 아니어서 pretrain할 때는 사용하지 못했다.
 
-현재까지 학습한 모델은 mini, small, base 세 가지이고 large는 아직 학습 중이다.
+현재까지 학습한 모델은 mini, small, base 세 가지이고 ~~large는 아직 학습 중이다.~~ large는 정상적으로 학습할 수 없었다.
 
 ### huggingface 모델 링크
 
@@ -55,11 +55,13 @@ huggingface 라이브러리를 처음 써본 결과 확실히 편하게 되어�
 
 pretraining의 loss와 metric 만으로는 모델이 정상적으로 학습되었는지 평가하기가 어려워서 finetune에 사용할 코드도 조금 구현해보았다. 어차피 task 자체에 사용할 건 아니고 학습이 되었는지 평가하기 위한 코드라 간단한 task 몇 개를 골라서 TF를 사용해서 대충?? 짜보았다. 처음에는 BART에만 사용할 수 있게 구현했다가 다른 사람들도 쉽게 돌려볼 수 있으면 좋을 것 같아서 일반 bert나 roberta 모델 등까지 호환이 가능하게 수정했다. (나머지는 BERT나 Roberta 등도 호환되고 Chatbot과 HateSpeech는 BART만 호환된다.)
 
-Finetune에 사용한 코드는 [**`여기`**](https://github.com/cosmoquester/transformers-bart-finetune)에 있다.
+Finetune에 사용한 코드는 [https://github.com/cosmoquester/transformers-bart-finetune](https://github.com/cosmoquester/transformers-bart-finetune)에 있다.
 
 Finetune도 최대한 TPU에서 사용할 수 있도록 구현했으며 결과적으로 STS Task를 제외하고는 모두 TPU와 호환되고 링크에서 Open in colab으로 켜면 기본이 TPU이다.
 
-STS에서 TPU가 안되는 것은 metric 중에 spearman correlation coefficient metric을 구현하는데 사용된 함수 중 일부가 TPU에서 호환이 안되서 그렇다. 해당 metric이 필요없다면 STS도 TPU에서 사용할 수 있다. 혹시라도 spearman correlation coefficient를 TPU compatible한 연산만으로 구현하는 법을 아시는 분은 알려주시면 매우 감사할 것 같습니다...(??)
+~~STS에서 TPU가 안되는 것은 metric 중에 spearman correlation coefficient metric을 구현하는데 사용된 함수 중 일부가 TPU에서 호환이 안되서 그렇다. 해당 metric이 필요없다면 STS도 TPU에서 사용할 수 있다. 혹시라도 spearman correlation coefficient를 TPU compatible한 연산만으로 구현하는 법을 아시는 분은 알려주시면 매우 감사할 것 같습니다...(??)~~
+
+spearman correlation coefficient 결국 TPU 호환가능하게 구현에 성공하여 STS도 default TPU로 동작합니다.
 
 아 그리고 원래 huggingface transformers에는 TFBartForSequenceClassification 모델이 없어서 이 클래스를 직접 구현해서 transformers에 넣어주는 식으로 좀 Tricky하게 사용했다. 그래야만 TFBartForSequenceClassification.from_pretrained로 hub에 올려놓은 모델을 가져올 수 있기 때문에...
 
