@@ -6,7 +6,7 @@ date: 2019-12-6
 comments: false
 ---
 
-<center>Last Updated at 22.02.22.</center>
+<center>Last Updated at 22.08.31.</center>
 
 ## Education
 
@@ -25,7 +25,21 @@ Sungkyunkwan University Suwon, South Korea
 ---
 
 __Scatterlab__ &emsp; Seoul, Korea  
-*Machine Learning Engineer* &emsp; [02. 2020] - [Present]
+*Machine Learning Researcher* &emsp; [02. 2022] - [08. 2022]
+
+- Developed conversation agent utilizing memory
+  - Read conversational memory or long-term sequence modeling papers
+  - Designed a dialogue system that can use memories.
+  - Pretrained BART model for memory extract and memorial generation tasks.
+  - Developed memory reminder model that brings proper memories with the current context from the memory pool.
+  - Integrated memory extrator, memory reminder, and memorial generator models and deploy API server on Slack.
+- Developed models for sketch quiz
+  - Developed sketch image classifier to solve which class is user's sketch.
+  - Researched the method for the model to draw sketch one by one with lines.
+  - Developed transformer-based model that can sketch pictures based on the class.
+
+__Scatterlab__ &emsp; Seoul, Korea  
+*Machine Learning Engineer* &emsp; [02. 2020] - [02. 2022]
 
 - Participanted developing open domain conversational chatbot agent [Luda-Lee](https://luda.ai/).
 - Developed dataset management and automated model evaluate platform backend with Python and AWS Dynamo DB.  
