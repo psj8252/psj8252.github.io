@@ -3,6 +3,7 @@ layout: post
 title: AI X Bookathon 4회 후기
 comments: true
 project: true
+excerpt: SKKU AI X Bookathon 4회 대회에 참가하여 에세이를 쓰는 모델을 개발하고, 인공지능을 이용해 글을 작성하였습니다. 코드나 학습한 모델 등의 결과물은 공개되어 있습니다.
 tag:
 - NLP
 - Korean
