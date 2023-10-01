@@ -6,167 +6,337 @@ date: 2019-12-6
 comments: false
 ---
 
-<center>Last Updated at 23.02.21.</center>
+<center>Last Updated at Octorber 1st 2023</center>
+
+## Interests
+
+---
+
+Artificial General Intelligence (AGI) reflecting the human brain and
+neural structure.
 
 ## Education
 
 ---
 
-Sungkyunkwan University Suwon, South Korea
+<p style="text-align:left">
+    <b>Sungkyunkwan University</b>
+    <span style="float:right;">
+        2017 - Present
+    </span>
+    <br/>
+    <i>Bachelor of Science</i> in Department of Computer Science and Engineering
+    <span style="float:right;">
+        Suwon, Korea
+    </span>
+    <br/>
+    <i>Bachelor of Arts</i> in Department of Psychology
+    <br/>
+    GPA: 4.23/4.5 (97.3/100) | Expected graduation: Feb 2024
+</p>
 
-- __Grade__: *Junior Year of College of Software, Bachelor of Software* &emsp; [03. 2017] ~
-- __Credit__: 128 Credit completed
-- __GPA__: 4.25 / 4.5
-- __Honors__: TOPCIT Army Chief staff Award, Student's Success Scholarship, Scholarship for Academic Excellence, SKKU BugBounty 2018 Incentive Award, SKKU BugBounty 2017 Special Award, Deans’s Award
-- __Coursework__: Data Structure, Algorithm, Problem Solving, Digital Logic Circuits, Discrete Mathematics, Linear Algebra, Cryptology, System Program, Introduction to Computer Architectures, Computer Networks, Open Source Software Practice, Database, Introduction to Machine Learning
+Relevant Coursework: Fundamentals of Machine Learning, Emotional
+Intelligence and Informatics, Cognitive Science, Brain and Mind,
+Introduction to Computational Neuroscience, Neurogenetics, Evolution
 
-## Experience
+<p style="text-align:left">
+    <b>Sabanci University</b>
+    <span style="float:right;">
+        Jul 2023 - Aug 2023
+    </span>
+    <br/>
+    <i>Summer Exchange Student</i>
+    <span style="float:right;">
+        Istanbul, Turkiye
+    </span>
+</p>
 
----
+<p style="text-align:left">
+    <b>University of California, Irvine</b>
+    <span style="float:right;">
+        Jul 2018 - Aug 2018
+    </span>
+    <br/>
+    <i>Undergraduate Research Internship</i>
+    <span style="float:right;">
+        Irvine, California, USA
+    </span>
+</p>
 
-__Scatterlab__ &emsp; Seoul, Korea  
-*Machine Learning Researcher* &emsp; [02. 2022] - [08. 2022]
-
-- Developed conversation agent utilizing memory
-  - Read conversational memory or long-term sequence modeling papers
-  - Designed a dialogue system that can use memories.
-  - Pretrained BART model for memory extract and memorial generation tasks.
-  - Developed memory reminder model that brings proper memories with the current context from the memory pool.
-  - Integrated memory extrator, memory reminder, and memorial generator models and deploy API server on Slack.
-- Developed models for sketch quiz
-  - Developed sketch image classifier to solve which class is user's sketch.
-  - Researched the method for the model to draw sketch one by one with lines.
-  - Developed transformer-based model that can sketch pictures based on the class.
-
-__Scatterlab__ &emsp; Seoul, Korea  
-*Machine Learning Engineer* &emsp; [02. 2020] - [02. 2022]
-
-- Participanted developing open domain conversational chatbot agent [Luda-Lee](https://luda.ai/).
-- Developed dataset management and automated model evaluate platform backend with Python and AWS Dynamo DB.  
-- Research and Develop Person Name Recognition model and filter curse, sexual or containing person name utterances.
-- Implemented weather synchronization and condition calculator using  Meteorological Agency API with MongoDB and Java Spring Boot.
-- Research vector similarity framesworks and programmed a script for text embedding training and indexing with faiss.
-- Converted pytorch based model into Tensorflow based model and Implemented serving API for Tensorflow Serving.
-- Compressed Transformer based large NLP model with knowledge distillation method for reducing model inference time.
-- Updated Person Name Recognition model based on ELECTRA and Implemented de-identification algorithm.
-- Built Automated Pipeline to finetune pretrained LM model and evaluate metrics with kubeflow pipelines.
-- Researched and compared serveral server frameworks for serving vector similarity framework.
-- Researched and compared Pytorch based model serving methods like TorchServe, ONNX.
-- Developed kubeflow pipelines to build parts of conversational agent like retriever, ranker, candidate utterances.
-- Developed test infra to evaluate each part of agent with kubernetes and helm enabling easy provision and termination of multiple conversational agents.
-- Applied authorization system for our internal kubernetes cluster using istio authorization policy.
-- Implemented tensorflow savedmodel converting scripts to serve our models on AWS Inferentia machine with neuron package.
-- Conversation module sanity check and trouble shooting with beta release.
-- Developed labeling system and add ranker labeling job for ranker finetune.
-- Extract data from bigquery and make dataset to enable labeling for calculate conversation metrics.
-
-__SW Maestro__ &emsp; Seoul, Korea  
-*Team Leader, Backend Developer, NLP Developer* &emsp; [05. 2019] - [11. 2019]
-
-- Developed counseling chatbot and released to Playstore with teammates.
-- Application was downloaded 1000+. [StoryForest Play Store](https://play.google.com/store/apps/details?id=tk.swmlegato.storyforest)
-- Led our team as a team leader and managed project.
-- Developed chatbot scenario build framework with Python flask.
-- Researched and developed Natural Language Processing (NLP) modules such as sentence similarity or response generation, etc.
-
-__Altibase__ &emsp; Suwon, South Korea  
-*Industry-University cooperation* &emsp; [04. 2018] – [12. 2018]
-
-- Developed performance monitoring tool for Altibase (DBMS).
-- Built the environment to save and visualize the performance data using ELK stack.
-
-__University of California, Irvine__ &emsp; Irvine, California, USA  
-*Undergraduate research project participant* &emsp; [07. 2018] – [08. 2018]
-
-- Participated non-GPS robot localization project in UC Irvine Center for Embedded Computer Systems (CECS) with Elaheh Bozorgzadeh.
-- Simulated single robot localization with dead-reckoning method in V-rep simulator and python.
-- Simulated multi robot localization with UKF filter MATLAB code.
-
-__Stellarium Astronomy Software__ &emsp; Suwon, Korea  
-*Open source project contributor* &emsp; [03. 2018] – [06. 2018]
-
-- Updated the contents on Github Wiki page for how to build application using Visual Studio.
-- Added an option to install Stellarium application in Korean language.
-- Translate some words to Korean about the name of astronomical bodies.
-
-__Microsoft__ &emsp; Suwon, South Korea  
-*Industry-University cooperation* &emsp; [04. 2017] – [12. 2017]
-
-- Studied Cloud Platform Service such as Microsoft Azure, Amazon Web Service, Google Cloud Platform.
-- Developed and operated messenger conversation analyzing web app tool with Python Flask.
-- Researched usage of blockchain using Microsoft Azure.
-
-## Activity
+## Awards & Honors
 
 ---
 
-[__2021 Korean Voice and Natural Language AI competition__](http://aihub-competition.or.kr/hangeul) &emsp; Seoul, Korea  
-*1st Prize* &emsp; [09. 2021] - [11. 2021]
+<p style="text-align:left">
+    NAVER Representative Award
+    <span style="float:right;">
+        2021
+    </span>
+    <br/>
+    TOPCIT Army Chief staff Award
+    <span style="float:right;">
+        2019
+    </span>
+    <br/>
+    Student's Success Scholarship
+    <span style="float:right;">
+        2019
+    </span>
+    <br/>
+    SungKyun Software Scholarship
+    <span style="float:right;">
+        2018, 2019, 2022
+    </span>
+    <br/>
+    2018 SKKU BugBounty Incentive Award
+    <span style="float:right;">
+        2018
+    </span>
+    <br/>
+    2017 SKKU BugBounty Special Award
+    <span style="float:right;">
+        2017
+    </span>
+    <br/>
+    Dean's List
+    <span style="float:right;">
+        2017 - 2019
+    </span>
+    <br/>
+</p>
 
-- Participated dialogue summarization competition with a total prize of $27K.
-- Researched and developed dialogue summarization model as team leader. [__[Github]__](https://github.com/cosmoquester/2021-dialogue-summary-competition)
-
-__Arduino Mentoring__ &emsp; Suwon, Korea  
-*Arduino Instructor* &emsp; [12. 2019]
-
-- Taught Arduino to high school students.
-- Taught how to make RC car with Bluetooth, Ultra sonic modules, etc.
-
-__SAP Design Thinking Education__ &emsp; Pangyo, Korea  
-*Student* &emsp; [12. 2019]
-
-- Learned customer-oriented problem solving.
-
-__FastCampus Natural Language Generation Education__ &emsp; Seoul, Korea  
-*Student* &emsp; [07. 2019] - [09. 2019]
-
-- Learned from NLP basics to deep knowledges.
-- Learned Neural machine translation (NMT) with seq2seq and attention, RL, etc.
-
-__Freshman Python Education TA__ &emsp; Suwon, Korea  
-*Teaching Assistant* &emsp; [02. 2019]
-
-- Taught Python basic to freshmen.
-
-__Campus Information Security Club__ &emsp; Suwon, Korea  
-*Club President* &emsp; [12. 2017] - [01. 2019]
-
-- Led Information Security Club (Hacker's In inTrusion).
-- Planned, construct and taught security study like System, Web Hacking, Forensic, etc.
-
-__2018 SKKU BugBounty__ &emsp; Suwon, South Korea  
-*Incentive Award* &emsp; [10. 2018]
-
-- Find vulnerability with finding web vulnerabilities such as Cookie reuse, SQL Injection, E-mail forward, Changing Password.
-- Studied various way of Web hacking.
-
-__CODEGATE 2018 Blind Coding__ &emsp; Seoul, Korea  
-*Event booth 5th prize* &emsp; [04. 2018]
-
-- Wrote simple codes with being blindfolded.
-
-__Freshman Python Education TA__ &emsp; Suwon, Korea  
-*Teaching Assistant* &emsp; [02. 2018]
-
-- Taught Python basic to freshmen.
-
-__Hancom MDS TensorFlow Deep Learning Education__ &emsp; Pangyo, Korea  
-*Received education* &emsp; [02. 2018]
-
-- Learned deep learning and Tensorflow basics.
-
-__2017 SKKU BugBounty__ &emsp; Suwon, South Korea  
-*Special Award (3rd Prize)* &emsp; [05. 2017]
-
-- Developed ability to find, attack, prevent real secure vulnerability with finding web vulnerabilities such as
-Cross Site Scripting or Web shell uploading.
-- Studied various way of Web hacking.
-
-## Skills & Interests
+## Research Experience
 
 ---
 
-__Programming:__ Python, Go, Java, C, Arduino  
-__Technologies/Environments:__ Visual Studio Code, Tensorflow, Pytorch, Docker, Flask, Kubernetes, Kubeflow, Faiss, AWS, GCP  
-__Language skill:__ Korean(native), English(Intermediate, Opic IM2)  
-__Interests:__ Writing, Calligraphy, Playing piano, Board Game, Reading books, Astronomical observation, Magic  
+<p style="text-align:left">
+    <b>Human Language Intelligence Lab</b>
+    <span style="float:right;">
+        Oct 2022 - Present
+    </span>
+    <br/>
+    <i>Undergraduate Researcher (Advisor: Professor, JinYeong Bak)</i>
+    <span style="float:right;">
+        Suwon, Korea
+    </span>
+    <br/>
+</p>
+
+- Researched an episodic memory system for deep neural networks, Memoria, which is based on the theories of human memory formulation and forgetting with a particular focus on Hebbian theory.
+- Conducted extensive experiments to prove the effectiveness of Memoria in enhancing long-term dependency consideration, applying it to Transformer-based models such as BERT and GPT.
+- Participate in research developing a mental disorder detection model with a large language model and play a role in providing advice for research orientation and plan.
+
+<p style="text-align:left">
+    <b>UCI Center for Embedded Computer Systems</b>
+    <span style="float:right;">
+        Jul 2018 - Aug 2018
+    </span>
+    <br/>
+    <i>Undergraduate Researcher (Advisor: Professor, Elaheh Bozorgzadeh)</i>
+    <span style="float:right;">
+        Irvine, California, USA
+    </span>
+</p>
+
+- Participated in a research project about locating robots within a non-GPS environment.
+- Simulated a single robot localization with the dead-reckoning method in V-REP and Python and multi-robot localization with UKF filter Matlab.
+
+## Work Experience
+
+---
+
+<p style="text-align:left">
+    <b>Scatterlab</b>
+    <span style="float:right;">
+        Feb 2022 - Aug 2022
+    </span>
+    <br/>
+    <i>Machine Learning Researcher</i>
+    <span style="float:right;">
+        Seoul, Korea
+    </span>
+</p>
+
+- Participated in the two projects aimed at enhancing conversational model by applying memory system to it and developing hand-drawing sketch classification and generation model.
+- Designed a way of memory utilization process such as extracting, memorizing, retrieving, and using the previous conversation context as a form of memory.
+- Developed a memory reminder model to retrieve relevant information from memory pool based on the current context.
+- Conducted pretraining BART to serve as the foundational model for memory extraction.
+- Developed sketch image classifier and stroke sequence generation model based on Transformer architecture so that the stroke sequence can be converted into the sketch image.
+
+<p style="text-align:left">
+    <b>Scatterlab</b>
+    <span style="float:right;">
+        Feb 2020 - Feb 2022
+    </span>
+    <br/>
+    <i>Machine Learning Engineer</i>
+    <span style="float:right;">
+        Seoul, Korea
+    </span>
+</p>
+
+- Played a key role in diverse projects involving the development of an open-domain conversational chatbot agent, Luda-Lee. The tasks included enhancing the data processing pipeline, implementing an automatic finetuning & evaluation system, conducting model distillation, and so on.
+- Developed a person name recognition model to de-identify person names and designed a sophisticated de-identification algorithm.
+- Conducted comprehensive experiments to compare various vector similarity frameworks and built reply embedding index with a famous vector similarity search framework, faiss.
+- Optimized BERT-based classification models through the application of knowledge distillation method to reduce model inference time while preserving the original performance.
+- Constructed automated pipelines with Kubeflow to finetune and evaluate language models in order to get a trained model and result metrics easily.
+
+## Activities
+
+---
+
+<p style="text-align:left">
+    <b>AI + Human Writing Competition</b>
+    <span style="float:right;">
+        Jan 2023
+    </span>
+    <br/>
+    <i>AI Model Developer</i>
+    <span style="float:right;">
+        Suwon, Korea
+    </span>
+</p>
+
+- Participated in a writing competition where human writes an essay about a given topic using their essay generation models. \[[Github](https://github.com/khu-bot/ai-essayist)\]
+- Resolved long-term dependency problem to generate text over 20,000 characters by employing a summarization model to abstract the previous context and received good comments in technical aspects.
+
+<p style="text-align:left">
+    <b>2021 Korean Voice and Natural Language AI competition</b>
+    <span style="float:right;">
+        Sep 2021 - Nov 2021
+    </span>
+    <br/>
+    <i>Team Leader</i>
+    <span style="float:right;">
+        Seoul, Korea
+    </span>
+</p>
+
+- Won the prize in a dialogue summarization competition with a total prize of \$27K. \[[Github](https://github.com/cosmoquester/2021-dialogue-summary-competition/blob/master/README.en.md)\]
+- Researched and developed dialogue summarization model applying SOTA methods and original ideas.
+
+<p style="text-align:left">
+    <b>SW Maestro: Legato</b>
+    <span style="float:right;">
+        May 2019 - Nov 2019
+    </span>
+    <br/>
+    <i>Team Leader, Developer, and ML Engineer</i>
+    <span style="float:right;">
+        Seoul, Korea
+    </span>
+</p>
+
+- Led a chatbot development government-funded team project aimed at improving mental health.
+- Researched and developed multiple natural language processing models such as sentence similarity model or conditional response generation model, etc.
+- Released StoryForest to Google Play Store, the application was downloaded over 1000 times.
+
+<p style="text-align:left">
+    <b>2018 SKKU BugBounty</b>
+    <span style="float:right;">
+        Oct 2018
+    </span>
+    <br/>
+    <i>Participant</i>
+    <span style="float:right;">
+        Suwon, Korea
+    </span>
+</p>
+
+- Won the incentive award to find vulnerabilities such as cookie reuse and SQL injection.
+
+<p style="text-align:left">
+    <b>Hacker's In inTrusion</b>
+    <span style="float:right;">
+        Dec 2017 - Jan 2019
+    </span>
+    <br/>
+    <i>President</i>
+    <span style="float:right;">
+        Suwon, Korea
+    </span>
+</p>
+
+- Operated university information security club and taught club members basic hacking and security.
+
+<p style="text-align:left">
+    <b>2017 SKKU BugBounty</b>
+    <span style="float:right;">
+        May 2017
+    </span>
+    <br/>
+    <i>Participant</i>
+    <span style="float:right;">
+        Suwon, Korea
+    </span>
+</p>
+
+- Won the special award to find web vulnerabilities such as cross site scripting and web shell uploading.
+
+## Teaching Experience
+
+---
+
+<p style="text-align:left">
+    <b>Mentoring foreign students in major classes</b>
+    <span style="float:right;">
+        Sep 2022 - Dec 2022
+    </span>
+    <br/>
+    <i>Mentor</i>
+    <span style="float:right;">
+        Suwon, Korea
+    </span>
+</p>
+
+- Taught foreign students about the data structure course and provided answers to their questions.
+
+<p style="text-align:left">
+    <b>Arduino Mentoring</b>
+    <span style="float:right;">
+        Dec 2019
+    </span>
+    <br/>
+    <i>Instructor</i>
+    <span style="float:right;">
+        Suwon, Korea
+    </span>
+</p>
+
+- Taught high school students Arduino (making RC car with Bluetooth, ultrasonic, and other modules).
+
+<p style="text-align:left">
+    <b>Computational Thinking and Software Coding</b>
+    <span style="float:right;">
+        Mar 2019 - Jun 2019
+    </span>
+    <br/>
+    <i>Teaching Assistant</i>
+    <span style="float:right;">
+        Seoul, Korea
+    </span>
+</p>
+
+- Conducted practical lessons on Entry and basic Python syntax for students.
+
+<p style="text-align:left">
+    <b>Freshman Python Education</b>
+    <span style="float:right;">
+        Feb 2019 & Feb 2018
+    </span>
+    <br/>
+    <i>Teaching Assistant</i>
+    <span style="float:right;">
+        Suwon, Korea
+    </span>
+</p>
+
+- Taught how to solve basic algorithm problems with Python to freshmen.
+
+## Competences
+
+---
+
+**Languages** Korean (*native*), English (*fluent*)  
+**Techniques** Python, C/C++, Go, Java, Javascript, Arduino, Visual Studio Code, Tensorflow, Pytorch, git, Docker, Flask, Kubernetes, Kubeflow, Faiss, AWS, GCP, LaTeX  
+**Interests** Writing, Calligraphy, Playing Piano, Board Game, Reading Books, Magic
