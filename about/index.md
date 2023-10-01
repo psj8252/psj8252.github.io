@@ -278,7 +278,7 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
 ---
 
 <p style="text-align:left">
-    <b>Mentoring foreign students in major classes</b>
+    <b>Mentoring Foreign Students in Major Classes</b>
     <span style="float:right;">
         Sep 2022 - Dec 2022
     </span>
