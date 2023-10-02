@@ -73,6 +73,11 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
         2021
     </span>
     <br/>
+    SKKU OpenSource SW Activity Top Award
+    <span style="float:right;">
+        2023
+    </span>
+    <br/>
     TOPCIT Army Chief staff Award
     <span style="float:right;">
         2019
