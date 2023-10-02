@@ -78,7 +78,7 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
         2023
     </span>
     <br/>
-    TOPCIT Army Chief staff Award
+    TOPCIT Army Chief Staff Award
     <span style="float:right;">
         2019
     </span>
@@ -86,11 +86,6 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
     Student's Success Scholarship
     <span style="float:right;">
         2019
-    </span>
-    <br/>
-    SungKyun Software Scholarship
-    <span style="float:right;">
-        2018, 2019, 2022
     </span>
     <br/>
     2018 SKKU BugBounty Incentive Award
@@ -101,6 +96,11 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
     2017 SKKU BugBounty Special Award
     <span style="float:right;">
         2017
+    </span>
+    <br/>
+    SungKyun Software Scholarship
+    <span style="float:right;">
+        2017 - 2019, 2022, 2023
     </span>
     <br/>
     Dean's List
