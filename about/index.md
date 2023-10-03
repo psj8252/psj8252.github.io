@@ -6,7 +6,7 @@ date: 2019-12-6
 comments: false
 ---
 
-<center>Last Updated at Octorber 1st 2023</center>
+<center>Last Updated at October 1st 2023</center>
 
 ## Interests
 
