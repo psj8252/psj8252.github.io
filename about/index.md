@@ -68,15 +68,15 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
 ---
 
 <p style="text-align:left">
+    SKKU OpenSource SW Activity Top Award
+    <span style="float:right;">
+        2023
+    </span>
     NAVER Representative Award
     <span style="float:right;">
         2021
     </span>
     <br/>
-    SKKU OpenSource SW Activity Top Award
-    <span style="float:right;">
-        2023
-    </span>
     <br/>
     TOPCIT Army Chief Staff Award
     <span style="float:right;">
@@ -180,7 +180,7 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
     </span>
 </p>
 
-- Played a key role in diverse projects involving the development of an open-domain conversational chatbot agent, Luda-Lee. The tasks included enhancing the data processing pipeline, implementing an automatic finetuning & evaluation system, conducting model distillation, and so on.
+- Played a key role in diverse projects involving the development of an open-domain conversational chatbot agent, [Luda-Lee](https://luda.ai/). The tasks included enhancing the data processing pipeline, implementing an automatic finetuning & evaluation system, conducting model distillation, and so on.
 - Developed a person name recognition model to de-identify person names and designed a sophisticated de-identification algorithm.
 - Conducted comprehensive experiments to compare various vector similarity frameworks and built reply embedding index with a famous vector similarity search framework, faiss.
 - Optimized BERT-based classification models through the application of knowledge distillation method to reduce model inference time while preserving the original performance.
