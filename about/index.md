@@ -72,11 +72,11 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
     <span style="float:right;">
         2023
     </span>
+    <br/>
     NAVER Representative Award
     <span style="float:right;">
         2021
     </span>
-    <br/>
     <br/>
     TOPCIT Army Chief Staff Award
     <span style="float:right;">
