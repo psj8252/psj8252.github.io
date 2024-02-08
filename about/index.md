@@ -6,14 +6,13 @@ date: 2019-12-6
 comments: false
 ---
 
-<center>Last Updated at October 1st 2023</center>
+<center>Last Updated at Feb 8th 2024</center>
 
 ## Interests
 
 ---
 
-Artificial General Intelligence (AGI) reflecting the human brain and
-neural structure.
+Artificial General Intelligence (AGI) inspired by the human mind and brain structure.
 
 ## Education
 
@@ -32,7 +31,7 @@ neural structure.
     <br/>
     <i>Bachelor of Arts</i> in Department of Psychology
     <br/>
-    GPA: 4.23/4.5 (97.3/100) | Expected graduation: Feb 2024
+    GPA: 4.24/4.5 | Expected graduation: Feb 2024
 </p>
 
 Relevant Coursework: Fundamentals of Machine Learning, Emotional
@@ -109,6 +108,12 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
     </span>
     <br/>
 </p>
+
+## Publications
+
+---
+
+1. **Sangjun Park** and JinYeong Bak. *Memoria: Resolving Fateful Forgetting Problem through Human-Inspired Memory Architecture.* arXiv:2310.03052, 2024. [[Preprint](https://arxiv.org/abs/2310.03052) \| [Github](https://github.com/cosmoquester/memoria)]
 
 ## Research Experience
 
