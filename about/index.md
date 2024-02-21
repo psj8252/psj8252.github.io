@@ -6,7 +6,7 @@ date: 2019-12-6
 comments: false
 ---
 
-<center>Last Updated at Feb 8th 2024</center>
+<center>Last Updated at Feb 21st 2024</center>
 
 ## Interests
 
@@ -21,17 +21,17 @@ Artificial General Intelligence (AGI) inspired by the human mind and brain struc
 <p style="text-align:left">
     <b>Sungkyunkwan University</b>
     <span style="float:right;">
-        2017 - Present
+        2017 - 2024
     </span>
     <br/>
     <i>Bachelor of Science</i> in Department of Computer Science and Engineering
     <span style="float:right;">
-        Suwon, Korea
+        Seoul, Korea
     </span>
     <br/>
     <i>Bachelor of Arts</i> in Department of Psychology
     <br/>
-    GPA: 4.24/4.5 | Expected graduation: Feb 2024
+    GPA: 4.24/4.5 | <i>Magna Cum Laude</i>
 </p>
 
 Relevant Coursework: Fundamentals of Machine Learning, Emotional
@@ -122,7 +122,7 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
 <p style="text-align:left">
     <b>Human Language Intelligence Lab</b>
     <span style="float:right;">
-        Oct 2022 - Present
+        Oct 2022 - Feb 2024
     </span>
     <br/>
     <i>Undergraduate Researcher (Advisor: Professor, JinYeong Bak)</i>
