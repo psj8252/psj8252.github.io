@@ -69,6 +69,11 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
 <p style="text-align:left">
     SKKU OpenSource SW Activity Top Award
     <span style="float:right;">
+        2024
+    </span>
+    <br/>
+    SKKU OpenSource SW Activity Top Award
+    <span style="float:right;">
         2023
     </span>
     <br/>
