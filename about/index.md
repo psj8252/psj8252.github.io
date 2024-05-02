@@ -6,7 +6,7 @@ date: 2019-12-6
 comments: false
 ---
 
-<center>Last Updated at Feb 21st 2024</center>
+<center>Last Updated at May 3rd 2024</center>
 
 ## Interests
 
@@ -118,7 +118,7 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
 
 ---
 
-1. **Sangjun Park** and JinYeong Bak. *Memoria: Resolving Fateful Forgetting Problem through Human-Inspired Memory Architecture.* arXiv:2310.03052, 2024. [[Preprint](https://arxiv.org/abs/2310.03052) \| [Github](https://github.com/cosmoquester/memoria)]
+1. **Sangjun Park** and JinYeong Bak. Memoria: Resolving Fateful Forgetting Problem through Human-Inspired Memory Architecture. *Proceedings of the 41st International Conference on Machine Learning (ICML 2024)* [[Preprint](https://arxiv.org/abs/2310.03052) \| [Github](https://github.com/cosmoquester/memoria)]
 
 ## Research Experience
 
