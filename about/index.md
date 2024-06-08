@@ -118,7 +118,11 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
 
 ---
 
-1. **Sangjun Park** and JinYeong Bak. Memoria: Resolving Fateful Forgetting Problem through Human-Inspired Memory Architecture. *Proceedings of the 41st International Conference on Machine Learning (ICML 2024)* [[Preprint](https://arxiv.org/abs/2310.03052) \| [Github](https://github.com/cosmoquester/memoria)]
+1. **Sangjun Park** and JinYeong Bak. [Memoria: Resolving Fateful Forgetting Problem through Human-Inspired Memory Architecture](https://icml.cc/virtual/2024/poster/32668). *Proceedings of the 41st International Conference on Machine Learning (**ICML 2024 Spotlight**)*  [[ArXiv](https://arxiv.org/abs/2310.03052) \| [OpenReview](https://openreview.net/forum?id=yTz0u4B8ug) \| [Github](https://github.com/cosmoquester/memoria)]
+
+2. **Sangjun Park** and JinYeong Bak. Lengthy Essay Generation with Summary-based Memory System. *Proceedings of the Korea Software Congress, pages 1571–1573. The Korean
+Institute of Information Scientists and Engineers, 2023 (**Participation Prize**)*
+
 
 ## Research Experience
 
@@ -159,6 +163,20 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
 ## Work Experience
 
 ---
+
+<p style="text-align:left">
+    <b>Upstage</b>
+    <span style="float:right;">
+        May 2024 - Now
+    </span>
+    <br/>
+    <i>AI Research Engineer</i>
+    <span style="float:right;">
+        Suwon, Korea
+    </span>
+</p>
+
+- Researched and developed document-related NLP models.
 
 <p style="text-align:left">
     <b>Scatterlab</b>
