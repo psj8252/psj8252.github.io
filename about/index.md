@@ -119,7 +119,8 @@ Introduction to Computational Neuroscience, Neurogenetics, Evolution
 ---
 
 1. **Sangjun Park** and JinYeong Bak. (2024). [Memoria: Resolving Fateful Forgetting Problem through Human-Inspired Memory Architecture](https://icml.cc/virtual/2024/poster/32668). *Proceedings of the 41st International Conference on Machine Learning*.  
-(***ICML 2024 Spotlight***) \| [ArXiv](https://arxiv.org/abs/2310.03052) \| [OpenReview](https://openreview.net/forum?id=yTz0u4B8ug) \| [Github](https://github.com/cosmoquester/memoria)
+(***ICML 2024 Spotlight**: Acceptance Rate=3.5%*) \| [ArXiv](https://arxiv.org/abs/2310.03052) \| [OpenReview](https://openreview.net/forum?id=yTz0u4B8ug) \| [<i class="icon-github">Github</i>
+](https://github.com/cosmoquester/memoria)
 
 2. **Sangjun Park** and JinYeong Bak. (2023). Lengthy Essay Generation with Summary-based Memory System. *Proceedings of the Korea Software Congress, pages 1571–1573. The Korean
 Institute of Information Scientists and Engineers (**Participation Prize**)*
