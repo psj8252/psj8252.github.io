@@ -31,7 +31,7 @@ Artificial General Intelligence (AGI) inspired by the human mind and brain struc
     <br/>
     <i>Bachelor of Arts</i> in Department of Psychology
     <br/>
-    GPA: 4.24/4.5 | <i>Magna Cum Laude</i> | <a onclick="location.href='../assets/materials/Transcript.pdf'">[Transcript]</a>
+    GPA: 4.24/4.5 | <i>Magna Cum Laude</i> | <a onclick="location.href='../assets/materials/Transcript.pdf'">Transcript</a>
 </p>
 
 Relevant Coursework: Fundamentals of Machine Learning, Emotional
